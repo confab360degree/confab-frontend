@@ -7,7 +7,7 @@ const ICETS = () => {
   return (
     <>
     <Navbar/>
-    <HeadBanner title='ICETS 2026'/>
+    <HeadBanner title='ICETS 2027'/>
     <ConferenceDetailsComponent4/>
     </>
   )
