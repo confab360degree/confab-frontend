@@ -62,7 +62,7 @@
     ".next/types/**/*.ts",
     "types",
     ".next/dev/types/**/*.ts"
-  ],
+, "src/constants/data/events/ICETS/ICETSts"  ],
   "exclude": [
     "node_modules"
   ]
