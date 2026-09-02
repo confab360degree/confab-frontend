@@ -58,8 +58,8 @@ const partnerLogos = [
   
   {
     src: "/assets/images/ICETS/INTIlogo.png", 
-    alt: "INTI University", 
-    name: "INTI University",
+    alt: "INTI International University", 
+    name: "INTI International University",
     location: "Malaysia", 
     className: "h-20 sm:h-24 md:h-28",
   },
@@ -266,6 +266,12 @@ export const tabItems = [
             </div>
             <p className={cn(bodyClass, "lg:col-span-2 text-justify")}>
               Rushford University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Rushford University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure. Built on the philosophy of “Learn & Earn from Day One,” Rushford University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers. With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Rushford University is creating a new benchmark in higher education.
+            </p>
+            <div className="lg:col-span-1">
+              <h2 className={sectionTitleClass}>About INTI International University</h2>
+            </div>
+            <p className={cn(bodyClass, "lg:col-span-2 text-justify")}>
+              INTI International University is a leading higher education institution committed to providing world-class education and research opportunities. With a strong focus on innovation and industry relevance, the university offers a wide range of programs designed to meet the evolving needs of the global workforce. INTI International University is dedicated to fostering an environment of academic excellence, critical thinking, and ethical leadership.
             </p>
           </div>
         </div>
