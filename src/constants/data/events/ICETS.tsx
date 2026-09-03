@@ -36,9 +36,9 @@ const cn = (...classes: Array<string | false | null | undefined>) =>
 const partnerLogos = [
   {
     src: "/assets/images/ICETS/rushford.jpg",
-    alt: "Rushford University logo",
-    name: "Rushford University",
-    location: "USA",
+    alt: "Rushford Business School logo",
+    name: "Rushford Business School",
+    location: "Switzerland",
     className: "h-20 sm:h-24 md:h-28",
   },
   {
@@ -262,11 +262,13 @@ export const tabItems = [
             </p>
 
             <div className="lg:col-span-1">
-              <h2 className={sectionTitleClass}>About Rushford University</h2>
+              <h2 className={sectionTitleClass}>About Rushford Business School, Switzerland</h2>
             </div>
             <p className={cn(bodyClass, "lg:col-span-2 text-justify")}>
-              Rushford University is a pioneering higher education institution located in Mangan, North Sikkim, dedicated to redefining the future of education through an innovative Industry-Integrated Learning model. Established under the Rushford University Act No. 06 of 2024 and recognized under Section 2(f) of the UGC Act, the university combines academic excellence with practical workplace experience, enabling students to graduate with both a nationally recognized degree and significant industry exposure. Built on the philosophy of “Learn & Earn from Day One,” Rushford University ensures that every student begins a paid apprenticeship from the first semester. This unique approach bridges the gap between classroom learning and real-world employment by integrating industry projects, workplace training, and academic coursework throughout the degree program. By graduation, students possess not only theoretical knowledge but also valuable professional experience that prepares them for successful careers. With its commitment to experiential learning, skill development, entrepreneurship, and industry collaboration, Rushford University is creating a new benchmark in higher education.
-            </p>
+Rushford Business School (RBS), Switzerland, is an internationally focused business school committed to developing future-ready leaders through innovation, academic excellence, and a global perspective. With a strong emphasis on practical learning and industry relevance,the institution prepares students and professionals to thrive in today's rapidly evolving business landscape. Combining Swiss educational values with modern teaching methodologies, Rushford Business School fosters an environment that encourages critical thinking, ethical leadership, entrepreneurship, and lifelong learning.
+              The school is recognized for its flexible and student-centric approach to education, making high-quality business learning accessible to learners from around the world. By integrating technology-enabled learning with real-world business insights, Rushford Business School creates an engaging academic experience that allows students to balance their education with professional and personal commitments. Its digital learning ecosystem, interactive classrooms, faculty mentorship, and collaborative learning environment ensure that students receive a comprehensive and enriching educational experience regardless of their location.
+              Rushford Business School places significant emphasis on experiential learning, encouraging students to apply theoretical concepts to practical business challenges through case studies, research, simulations, industry interactions, and collaborative projects. This approach enables learners to develop problem-solving abilities, strategic decision-making skills, leadership qualities, and an entrepreneurial mindset that are essential for success in global organizations.
+              </p>          
             <div className="lg:col-span-1">
               <h2 className={sectionTitleClass}>About INTI International University</h2>
             </div>
