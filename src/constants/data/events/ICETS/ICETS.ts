@@ -254,13 +254,13 @@ export const GuestList = [
                 location:' Canada'
             },
           
-            {
-                key:7,
-                image:'/assets/images/ICETS/Jonathan.png',
-                name:'Prof. Jonathan Liu',
-                role:'The International Business School, Manchester',
-                location:'United Kingdom'
-            },
+            // {
+            //     key:7,
+            //     image:'/assets/images/ICETS/Jonathan.png',
+            //     name:'Prof. Jonathan Liu',
+            //     role:'The International Business School, Manchester',
+            //     location:'United Kingdom'
+            // },
             // {
             //     key:7,
             //     image:'/assets/images/ITNSSEM/Dr.-Sabyasachi-Saha.jpeg',
