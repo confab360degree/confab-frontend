@@ -31,13 +31,32 @@ export const UpcomingEventList = [
   // },
   {
      id: 1,
+     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
+    event:[
+      {
+          key:1,
+          title:'(CIECI & ICFBE 2026)',
+          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
+          date:'10-11 August 2026',
+          link:'https://www.confab360degree.com/CECI'
+      }
+    ],
+    info:'',
+    images: [
+      "/assets/images/upcomingEvent/CIECI.jpg",
+            
+    ],
+    pointList:[]
+  },
+  {
+     id: 2,
      title:'International Conference on Artificial Intelligence, Trade and Sustainability - 2026',
     event:[
       {
           key:1,
           title:'(ICATS 2026)',
           para:'',
-          date:'6th – 7th October, 2026',
+          date:'6th – 7th October, 2026 | Hybrid Mode',
           link:''
       }
     ],
@@ -49,71 +68,46 @@ export const UpcomingEventList = [
     pointList:[]
   },
 
-{
-     id: 2,
-     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
+
+  {
+     id: 3,
+     title:'GLOBAL IMMERSION PROGRAMME',
     event:[
       {
           key:1,
-          title:'(CIECI & ICFBE 2026)',
-          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
-          date:'10-11 August 2026',
-          link:'https://english.ueb.edu.vn/RESEARCH/CIECI/2262#'
+          title:'Organised by Confab 360 Degree and The University of Economics and Business, Vietnam National University, Hanoi',
+          para:'',
+          date:'19-25 October 2026',
+          link:'/assets/file/event_files/GIPHanoi.pdf'
+      }
+    ],
+     info:'',
+    images: [
+      "/assets/images/upcomingEvent/GEP.jpg",
+          
+    ],
+    pointList:[]
+  },
+  {
+     id: 4,
+     title:'International Conference on Emerging Technologies for Sustainability - 2027',
+    event:[
+      {
+          key:1,
+          title:'Emerging Technologies for Sustainable Business Development, Innovation, Environmental Protection, Engineering Education & the SDGs',
+          para:'',
+          date:'22nd – 23rd January, 2027 | Hybrid Mode',
+          link:''
       }
     ],
     info:'',
     images: [
-      "/assets/images/upcomingEvent/CIECI.jpg",
-            
+      "/assets/images/upcomingEvent/ICETS2027.jpg",
+      
+      
     ],
     pointList:[]
   },
-  // {
-  //    id: 1,
-  //    title:'Research Writing and Case Development Training Program',
-  //   event:[
-  //     {
-  //         key:1,
-  //         title:'(AICTE and MEPSC Approved Training Program)',
-  //         para:'',
-  //         date:'10-19 July 2026',
-  //         link:''
-  //     }
-  //   ],
-  //   info:'',
-  //   images: [
-  //     "/assets/images/upcomingEvent/RW31.jpg",
-  //     "/assets/images/upcomingEvent/RW32.jpg",
-      
-  //   ],
-  //   pointList:[]
-  // },
-  // {
-  //    id: 2,
-  //    title:'Artificial Intelligence Based Training Program',
-  //   event:[
-  //     {
-  //         key:1,
-  //         title:'(AICTE-Neat Cell Approved Training Program)',
-  //         para:'',
-  //         date:'22-31 May 2026',
-  //         link:''
-  //     }
-  //   ],
-  //    info:'',
-  //   images: [
-  //     "/assets/images/upcomingEvent/AIBT1.jpg",
-  //     "/assets/images/upcomingEvent/AIBT2.jpg",
-  //     "/assets/images/upcomingEvent/AIBT3.jpg",
-  //     "/assets/images/upcomingEvent/AIBT4.jpg",
-  //     "/assets/images/upcomingEvent/AIBT5.jpg",
-  //     "/assets/images/upcomingEvent/AIBT6.jpg",
-  //     "/assets/images/upcomingEvent/AIBT7.jpg",
-  //     "/assets/images/upcomingEvent/AIBT8.jpg",
-      
-  //   ],
-  //   pointList:[]
-  // },
   // {
   //   id: 3,
   //   title: "Managing Knowledge For a Sustainable Future: Artifical Intelligence vs Human Intelligence",

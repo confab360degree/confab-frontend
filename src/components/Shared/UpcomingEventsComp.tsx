@@ -15,6 +15,10 @@ const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 const upcomingEventsList = [
   {
+      image: "/assets/images/upcomingEvent/GEP.jpg",
+      title: ""
+    },
+    {
       image: "/assets/images/upcomingEvent/ICATS2026.jpg",
       title: ""
     },
