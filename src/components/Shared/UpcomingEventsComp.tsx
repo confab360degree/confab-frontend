@@ -19,7 +19,7 @@ const upcomingEventsList = [
       title: ""
     },
     {
-      image: "/assets/images/upcomingEvent/ICATS2026.jpg",
+      image: "/assets/images/upcomingEvent/ICATS.jpg",
       title: ""
     },
     {
