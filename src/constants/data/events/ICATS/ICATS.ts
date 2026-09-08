@@ -398,16 +398,16 @@ export const ConvenerList =[
 export const Coconvenerlist =[
             {
                 key:1,
-                // image:'/assets/images/ITNSSEM/.jpg',
-                name:'',
-                detail:''
+                image:'/assets/images/ICATS/jolly.jpg',
+                name:'Dr. Jolly Masih',
+                detail:'SOM, BML Munjal University, Gurugram'
             },
-            // {
-            //     key:2,
-            //     // image:'/assets/images/ITNSSEM/Evelyn.jpg',
-            //     name:'Dr. V. Evelyn Brinda',
-            //     detail:'Dean Academics., Audisankara Deemed to be University, Nellore'
-            // },
+            {
+                key:2,
+                image:'/assets/images/ICATS/atul.jpg',
+                name:'Dr. Atul Mishra',
+                detail:'SOET, BML Munjal University, Gurugram'
+            },
             // {
             //     key:3,
             //     // image:'/assets/images/ITNSSEM/xx.jpg',

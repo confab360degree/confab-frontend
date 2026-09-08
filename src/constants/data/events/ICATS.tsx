@@ -27,7 +27,7 @@ import { Carousel } from "antd";
 // Set to true when you want to display Co-Convener
 // =========================================================
 
-const SHOW_CO_CONVENER = false;
+const SHOW_CO_CONVENER = true;
 
 const cn = (...classes: Array<string | false | null | undefined>) =>
   classes.filter(Boolean).join(" ");
@@ -462,7 +462,8 @@ export const tabItems = [
       </section>
 
 
-      {/* =====================================================
+      
+{/* =====================================================
           CONFERENCE CHAIR
           SAME DESIGN AS CHIEF PATRON
       ===================================================== */}
@@ -624,107 +625,139 @@ export const tabItems = [
       </section>
 
 
-      {/* =====================================================
-          CO-CONVENER
-          DISABLED FOR NOW — KEEP FOR FUTURE USE
+
+
+
+
+
+{/* =====================================================
+          CONFERENCE CO-CHAIR
+          SAME DESIGN AS CHIEF PATRON
       ===================================================== */}
 
-      {SHOW_CO_CONVENER && (
+      <section className="mt-12">
 
-        <section className="mt-12">
-
-          <div className="flex items-center gap-3 mb-6">
-
-            <div
-              className="
-                w-11
-                h-11
-                rounded-xl
-                bg-green-50
-                flex
-                items-center
-                justify-center
-                flex-shrink-0
-              "
-            >
-
-              <span className="text-xl">
-                ✓
-              </span>
-
-            </div>
-
-
-            <div>
-
-              <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-                Co-Convener(s)
-              </h2>
-
-              
-            </div>
-
-          </div>
-
+        <div className="flex items-center gap-3 mb-6">
 
           <div
             className="
-              grid
-              grid-cols-1
-              sm:grid-cols-2
-              lg:grid-cols-3
-              xl:grid-cols-4
-              gap-5
+              w-11
+              h-11
+              rounded-xl
+              bg-blue-50
+              flex
+              items-center
+              justify-center
+              flex-shrink-0
             "
           >
+            <span className="text-xl">
+              ★
+            </span>
+          </div>
 
-            {Coconvenerlist.map((item, index) => (
+          <div>
 
-              <article
-                key={index}
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+              Conference Co-Chair
+            </h2>
+
+          
+          </div>
+
+        </div>
+
+
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            lg:grid-cols-3
+            xl:grid-cols-4
+            gap-5
+            justify-items-center
+          "
+        >
+
+          {Coconvenerlist.map((item, index) => (
+
+            <article
+              key={index}
+              className="
+                relative
+                w-full
+                max-w-[300px]
+                overflow-hidden
+                rounded-2xl
+                border
+                border-gray-200
+                bg-white
+                shadow-sm
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:shadow-xl
+              "
+            >
+
+              {/* SAME TOP ACCENT */}
+
+              <div
                 className="
+                  h-1.5
                   w-full
-                  min-h-[180px]
-                  rounded-2xl
-                  border
-                  border-gray-200
-                  bg-white
-                  p-5
-                  flex
-                  flex-col
-                  justify-center
-                  transition-all
-                  duration-300
-                  hover:-translate-y-1
-                  hover:shadow-lg
+                  bg-gradient-to-r
+                  from-blue-500
+                  to-indigo-500
                 "
-              >
+              />
 
-                <div className="text-center">
+
+              <div className="p-5">
+
+                {/* PHOTO */}
+
+                <div className="flex justify-center">
 
                   <div
                     className="
-                      mx-auto
-                      w-12
-                      h-12
+                      w-36
+                      h-36
+                      md:w-40
+                      md:h-40
                       rounded-full
-                      bg-green-50
-                      border
-                      border-green-100
-                      flex
-                      items-center
-                      justify-center
-                      text-green-600
-                      font-bold
+                      overflow-hidden
+                      bg-gray-100
+                      border-4
+                      border-white
+                      shadow-md
                     "
                   >
-                    {index + 1}
+
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      loading="lazy"
+                      className="
+                        w-full
+                        h-full
+                        object-cover
+                      "
+                    />
+
                   </div>
 
+                </div>
 
-                  <h3
+
+                {/* DETAILS */}
+
+                <div className="mt-5 text-center">
+
+                   <h3
                     className="
-                      mt-4
+                      mt-3
                       text-lg
                       font-bold
                       text-gray-900
@@ -748,18 +781,17 @@ export const tabItems = [
 
                 </div>
 
-              </article>
+              </div>
 
-            ))}
+            </article>
 
-          </div>
+          ))}
 
-        </section>
+        </div>
 
-      )}
+      </section>
 
-
-    
+  
 
     </PageShell>
   ),
