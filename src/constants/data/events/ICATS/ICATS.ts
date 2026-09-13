@@ -380,22 +380,29 @@ export const PatronList =[
         ]
 
 export const ConvenerList =[
-            // {
-            //     key:1,
-            //     image:'/assets/images/ITNSSEM/.jpg',
-            //     name:'Name',
-            //     detail:'Details'
-            // },
-            // {
-            //     key:2,
-            //     image:'/assets/images/ITNSSEM/DR.jpg',
-            //     name:'Dr. Debabrata Roy',
-            //     detail:'NSHM Knowledge Campus, Durgapur, India'
-            // },
+            {
+                key:1,
+                image:'/assets/images/ICATS/neelesh.jpg',
+                name:'Dr. Neelesh Kumar',
+                detail:'BML Munjal University, Gurugram'
+            },
         ]
-    
+export const CoconvenerList =[
+            {
+                key:1,
+                image:'/assets/images/ICATS/minakshi.jpg',
+                name:'Dr. Minakshi Malik',
+                detail:'BML Munjal University, Gurugram'
+            },
+             {
+                key:2,
+                image:'/assets/images/ICATS/jaya.jpg',
+                name:'Dr. Jaya Ahuja',
+                detail:'BML Munjal University, Gurugram'
+            },
+        ]    
 
-export const Coconvenerlist =[
+export const Cochairlist =[
             {
                 key:1,
                 image:'/assets/images/ICATS/jolly.jpg',
@@ -408,6 +415,7 @@ export const Coconvenerlist =[
                 name:'Dr. Atul Mishra',
                 detail:'SOET, BML Munjal University, Gurugram'
             },
+             
             // {
             //     key:3,
             //     // image:'/assets/images/ITNSSEM/xx.jpg',

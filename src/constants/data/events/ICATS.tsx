@@ -4,13 +4,15 @@ import {
   ERList,
   SCIntlList,
   ConferenceSessionsList,
-  Coconvenerlist,
+  Cochairlist,
   GuestList,
   ImportantDateList,
   InternationalAdvisoryList,
   publicationsList,
   PatronList,
   ChiefPatronList,
+  ConvenerList,
+  CoconvenerList,
 } from "./ICATS/ICATS";
 import {
   LuCalendar,
@@ -680,7 +682,7 @@ export const tabItems = [
           "
         >
 
-          {Coconvenerlist.map((item, index) => (
+          {Cochairlist.map((item, index) => (
 
             <article
               key={index}
@@ -791,8 +793,312 @@ export const tabItems = [
 
       </section>
 
-  
+  {/* =====================================================
+    CONVENER
+    SAME DESIGN AS CONFERENCE CHAIR
+===================================================== */}
 
+<section className="mt-12">
+
+  <div className="flex items-center gap-3 mb-6">
+
+    <div
+      className="
+        w-11
+        h-11
+        rounded-xl
+        bg-blue-50
+        flex
+        items-center
+        justify-center
+        flex-shrink-0
+      "
+    >
+      <span className="text-xl">
+        ★
+      </span>
+    </div>
+
+    <div>
+      <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+        Convener
+      </h2>
+    </div>
+
+  </div>
+
+  <div
+    className="
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-3
+      xl:grid-cols-4
+      gap-5
+      justify-items-center
+    "
+  >
+
+    {ConvenerList.map((item, index) => (
+
+      <article
+        key={index}
+        className="
+          relative
+          w-full
+          max-w-[300px]
+          overflow-hidden
+          rounded-2xl
+          border
+          border-gray-200
+          bg-white
+          shadow-sm
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:shadow-xl
+        "
+      >
+
+        {/* TOP ACCENT */}
+
+        <div
+          className="
+            h-1.5
+            w-full
+            bg-gradient-to-r
+            from-blue-500
+            to-indigo-500
+          "
+        />
+
+        <div className="p-5">
+
+          {/* PHOTO */}
+
+          <div className="flex justify-center">
+
+            <div
+              className="
+                w-36
+                h-36
+                md:w-40
+                md:h-40
+                rounded-full
+                overflow-hidden
+                bg-gray-100
+                border-4
+                border-white
+                shadow-md
+              "
+            >
+
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="
+                  w-full
+                  h-full
+                  object-cover
+                "
+              />
+
+            </div>
+
+          </div>
+
+          {/* DETAILS */}
+
+          <div className="mt-5 text-center">
+
+            <h3
+              className="
+                mt-3
+                text-lg
+                font-bold
+                text-gray-900
+                leading-snug
+              "
+            >
+              {item.name}
+            </h3>
+
+            <p
+              className="
+                mt-2
+                text-sm
+                text-gray-600
+                leading-relaxed
+              "
+            >
+              {item.detail}
+            </p>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    ))}
+
+  </div>
+
+</section>
+{/* =====================================================
+    CO-CONVENER
+    SAME DESIGN AS CONFERENCE CHAIR
+===================================================== */}
+
+<section className="mt-12">
+
+  <div className="flex items-center gap-3 mb-6">
+
+    <div
+      className="
+        w-11
+        h-11
+        rounded-xl
+        bg-blue-50
+        flex
+        items-center
+        justify-center
+        flex-shrink-0
+      "
+    >
+      <span className="text-xl">
+        ★
+      </span>
+    </div>
+
+    <div>
+      <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+        Co-Convener
+      </h2>
+    </div>
+
+  </div>
+
+  <div
+    className="
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-3
+      xl:grid-cols-4
+      gap-5
+      justify-items-center
+    "
+  >
+
+    {CoconvenerList.map((item, index) => (
+
+      <article
+        key={index}
+        className="
+          relative
+          w-full
+          max-w-[300px]
+          overflow-hidden
+          rounded-2xl
+          border
+          border-gray-200
+          bg-white
+          shadow-sm
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:shadow-xl
+        "
+      >
+
+        {/* TOP ACCENT */}
+
+        <div
+          className="
+            h-1.5
+            w-full
+            bg-gradient-to-r
+            from-blue-500
+            to-indigo-500
+          "
+        />
+
+        <div className="p-5">
+
+          {/* PHOTO */}
+
+          <div className="flex justify-center">
+
+            <div
+              className="
+                w-36
+                h-36
+                md:w-40
+                md:h-40
+                rounded-full
+                overflow-hidden
+                bg-gray-100
+                border-4
+                border-white
+                shadow-md
+              "
+            >
+
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="
+                  w-full
+                  h-full
+                  object-cover
+                "
+              />
+
+            </div>
+
+          </div>
+
+          {/* DETAILS */}
+
+          <div className="mt-5 text-center">
+
+            <h3
+              className="
+                mt-3
+                text-lg
+                font-bold
+                text-gray-900
+                leading-snug
+              "
+            >
+              {item.name}
+            </h3>
+
+            <p
+              className="
+                mt-2
+                text-sm
+                text-gray-600
+                leading-relaxed
+              "
+            >
+              {item.detail}
+            </p>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    ))}
+
+  </div>
+
+</section>
     </PageShell>
   ),
 },
