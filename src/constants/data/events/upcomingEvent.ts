@@ -29,27 +29,9 @@ export const UpcomingEventList = [
   //   ],
   //   pointList:[]
   // },
+
   {
      id: 1,
-     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
-    event:[
-      {
-          key:1,
-          title:'(CIECI & ICFBE 2026)',
-          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
-          date:'10-11 August 2026',
-          link:'https://www.confab360degree.com/CECI'
-      }
-    ],
-    info:'',
-    images: [
-      "/assets/images/upcomingEvent/CIECI.jpg",
-            
-    ],
-    pointList:[]
-  },
-  {
-     id: 2,
      title:'International Conference on Artificial Intelligence, Trade and Sustainability - 2026',
     event:[
       {
@@ -70,7 +52,7 @@ export const UpcomingEventList = [
 
 
   {
-     id: 3,
+     id: 2,
      title:'GLOBAL IMMERSION PROGRAMME',
     event:[
       {
@@ -85,6 +67,25 @@ export const UpcomingEventList = [
     images: [
       "/assets/images/upcomingEvent/GEP.jpg",
           
+    ],
+    pointList:[]
+  },
+    {
+     id: 3,
+     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
+    event:[
+      {
+          key:1,
+          title:'(CIECI & ICFBE 2026)',
+          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
+          date:'22-23 October 2026',
+          link:'https://www.confab360degree.com/CECI'
+      }
+    ],
+    info:'',
+    images: [
+      "/assets/images/upcomingEvent/CIECI.jpg",
+            
     ],
     pointList:[]
   },
