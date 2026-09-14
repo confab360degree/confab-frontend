@@ -1353,7 +1353,7 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
                Indira University, Pune, India
             </p>
             <p className="mt-2 text-sm leading-6 text-slate-600 sm:text-base">
-              <strong>Dates:</strong> 22nd January (Friday) – 23rd January (Saturday), 2027 | Hybrid Mode
+              <strong>Dates:</strong> 29th January (Friday) – 30th January (Saturday), 2027 | Hybrid Mode
             </p>
           </div>
           <div className="mx-auto w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 shadow-sm">
