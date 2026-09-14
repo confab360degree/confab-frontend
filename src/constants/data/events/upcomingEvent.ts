@@ -97,7 +97,7 @@ export const UpcomingEventList = [
           key:1,
           title:'Emerging Technologies for Sustainable Business Development, Innovation, Environmental Protection, Engineering Education & the SDGs',
           para:'',
-          date:'22nd – 23rd January, 2027 | Hybrid Mode',
+          date:'29th – 30th January, 2027 | Hybrid Mode',
           link:''
       }
     ],
