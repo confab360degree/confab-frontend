@@ -136,33 +136,41 @@ export const ImportantDateList = [
 
 
 export const GuestList = [
+    {
+        key:1,
+        title:'Honoured Guest/Guest of Honor',
+        GuestList: [
+            {
+                key:1,
+                image:'/assets/images/ICATS/ashley.jpg',
+                name:'Ms. Ashley King',
+                role:'International Admissions Expert',
+                location:'Spain'
+            },
+            {
+                key:1,
+                image:'/assets/images/ICATS/CB.jpg',
+                name:'Dr. Chandrasekhar Buddha',
+                role:'CEO, Anuvadini AI, Ministry of Education & COO, AICTE, MoE, Government of India ',
+                location:'India'
+            },
+        ]
+    },
     // {
-    //     key:1,
+    //     key:2,
     //     title:'Guest of Honor',
     //     GuestList: [
     //         {
     //             key:1,
-    //             image:'/assets/images/ITNSSEM/xx.jpg',
-    //             name:'Government officials (they will confirm at the time of the event)',
-    //             role:'xx',
-    //             location:'India'
-    //         }
-    //     ]
-    // },
-    // {
-    //     key:2,
-    //     title:'Chief Guest',
-    //     GuestList: [
-    //         {
-    //             key:1,
-    //             image:'/assets/images/ITNSSEM/xx.jpg',
-    //             name:'Government officials (they will confirm at the time of the event)',
-    //             role:'xx',
+    //             image:'/assets/images/ICATS/CB.jpg',
+    //             name:'Dr. Chandrasekhar Buddha',
+    //             role:'CEO, Anuvadini AI, Ministry of Education & COO, AICTE, MoE, Government of India ',
     //             location:'India'
     //         }
     //     ]
     // },
     {
+        
         key:3,
         title:'Keynote Speakers',
         GuestList: [
