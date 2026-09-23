@@ -144,7 +144,7 @@ export const GuestList = [
                 key:1,
                 image:'/assets/images/ICATS/ashley.jpg',
                 name:'Ms. Ashley King',
-                role:'International Admissions Expert',
+                role:'International Education Expert',
                 location:'Spain'
             },
             {
