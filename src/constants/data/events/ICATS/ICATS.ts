@@ -356,6 +356,7 @@ export const ChiefPatronList =[
                 detail:'CEO at CTI Consulting - Technology - Information'
             },
             
+            
         ]
 
 
@@ -378,6 +379,12 @@ export const PatronList =[
                 image:'/assets/images/ICATS/vikas.webp',
                 name:'Dr. Vikas Shukla',
                 detail:'Co-founder, Orchid University, India'
+            },
+            {
+                key:4,
+                image:'/assets/images/ICATS/jasarora.jpg',
+                name:'Prof. (Dr.) Jaskiran Arora',
+                detail:'Dean, SOM, BML Munjal University, Gurugram, India'
             },
             // {
             //     key:4,
