@@ -30,25 +30,25 @@ export const UpcomingEventList = [
   //   pointList:[]
   // },
 
-  {
-     id: 1,
-     title:'International Conference on Artificial Intelligence, Trade and Sustainability - 2026',
-    event:[
-      {
-          key:1,
-          title:'(ICATS 2026)',
-          para:'',
-          date:'6th – 7th October, 2026 | Hybrid Mode',
-          link:''
-      }
-    ],
-    info:'',
-    images: [
-      "/assets/images/upcomingEvent/ICATS.jpg",
+  // {
+  //    id: 1,
+  //    title:'International Conference on Artificial Intelligence, Trade and Sustainability - 2026',
+  //   event:[
+  //     {
+  //         key:1,
+  //         title:'(ICATS 2026)',
+  //         para:'',
+  //         date:'6th – 7th October, 2026 | Hybrid Mode',
+  //         link:''
+  //     }
+  //   ],
+  //   info:'',
+  //   images: [
+  //     "/assets/images/upcomingEvent/ICATS.jpg",
             
-    ],
-    pointList:[]
-  },
+  //   ],
+  //   pointList:[]
+  // },
 
 
   {

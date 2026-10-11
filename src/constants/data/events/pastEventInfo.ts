@@ -1,5 +1,50 @@
 export const pastEventList = [
   {
+    key: 40,
+    title:
+      "AI, Technology, Marketing & Quality: International Symposium on Shaping the Future of Higher Education and Research, Raj Kumar Goel Institute of Technology, Ghaziabad, India",
+    images: [
+      "/assets/images/pastEvent/RKGITSymp/1.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/2.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/3.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/4.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/5.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/6.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/7.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/8.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/9.jpeg",
+      "/assets/images/pastEvent/RKGITSymp/10.jpeg",
+      
+    ],
+  },
+  {
+    key: 40,
+    title:
+      "International Conference on Artificial Intelligence, Trade and Sustainability - 2026 (ICATS 2026), BML Munjal University, Gurugram",
+    images: [
+      "/assets/images/pastEvent/ICATS/1.jpg",
+      "/assets/images/pastEvent/ICATS/2.jpg",
+      "/assets/images/pastEvent/ICATS/3.jpg",
+      "/assets/images/pastEvent/ICATS/4.jpg",
+      "/assets/images/pastEvent/ICATS/5.jpg",
+      "/assets/images/pastEvent/ICATS/6.jpg",
+      "/assets/images/pastEvent/ICATS/7.jpg",
+      "/assets/images/pastEvent/ICATS/8.jpg",
+      "/assets/images/pastEvent/ICATS/9.jpg",
+      "/assets/images/pastEvent/ICATS/10.jpg",
+      "/assets/images/pastEvent/ICATS/11.jpg",
+      "/assets/images/pastEvent/ICATS/12.jpg",
+      "/assets/images/pastEvent/ICATS/13.jpg",
+      "/assets/images/pastEvent/ICATS/14.jpg",
+      "/assets/images/pastEvent/ICATS/15.jpg",
+      "/assets/images/pastEvent/ICATS/16.jpg",
+      "/assets/images/pastEvent/ICATS/17.jpg",
+      "/assets/images/pastEvent/ICATS/18.jpg",
+      "/assets/images/pastEvent/ICATS/19.jpg",
+      "/assets/images/pastEvent/ICATS/20.jpg",
+    ],
+  },
+  {
     key: 39,
     title:
       "International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities (SSAIP-IC26), S.S. Agrawal College Campus, S.S. Agrawal Institute of Pharmacy, Navsari, Gujarat",

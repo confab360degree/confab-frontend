@@ -1,5 +1,79 @@
 export const HomeEventList = [
- 
+ {
+  title: "International Conference on Artificial Intelligence, Trade and Sustainability - 2026 (ICATS 2026), BML Munjal University, Gurugram",
+  events: [
+    {
+      id: 1,
+      image: "/assets/images/pastEvent/ICATS/1.jpg",
+      title: ""
+    },
+    {
+      id: 2,
+      image: "/assets/images/pastEvent/ICATS/2.jpg",
+      title: ""
+    },
+    {
+      id: 3,
+      image: "/assets/images/pastEvent/ICATS/3.jpg",
+      title: ""
+    },
+    {
+      id: 4,
+      image: "/assets/images/pastEvent/ICATS/4.jpg",
+      title: ""
+    },
+    {
+      id: 5,
+      image: "/assets/images/pastEvent/ICATS/5.jpg",
+      title: ""
+    },
+    {
+      id: 6,
+      image: "/assets/images/pastEvent/ICATS/6.jpg",
+      title: ""
+    },
+    {
+      id: 7,
+      image: "/assets/images/pastEvent/ICATS/7.jpg",
+      title: ""
+    },
+    {
+      id: 8,
+      image: "/assets/images/pastEvent/ICATS/8.jpg",
+      title: ""
+    },
+    {
+      id: 9,
+      image: "/assets/images/pastEvent/ICATS/9.jpg",
+      title: ""
+    },
+    {
+      id: 10,
+      image: "/assets/images/pastEvent/ICATS/10.jpg",
+      title: ""
+    },
+    {
+      id: 11,
+      image: "/assets/images/pastEvent/ICATS/11.jpg",
+      title: ""
+    },
+    {
+      id: 12,
+      image: "/assets/images/pastEvent/ICATS/12.jpg",
+      title: ""
+    },
+    {
+      id: 13,
+      image: "/assets/images/pastEvent/ICATS/13.jpg",
+      title: ""
+    },
+    {
+      id: 14,
+      image: "/assets/images/pastEvent/ICATS/14.jpg",
+      title: ""
+    }
+  ]
+},
 {
       title:'International Conference on Artificial Intelligence and Mobile Technologies: Transforming Engineering, Management, Healthcare, and Humanities (SSAIP-IC26), S.S. Agrawal College Campus, S.S. Agrawal Institute of Pharmacy, Navsari, Gujarat',
       events: [
@@ -193,36 +267,36 @@ title: ""
     ]
 },
 
-{
-      title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/indianCollaboration/navsari.jpg",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/indianCollaboration/ss1.jpeg",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/indianCollaboration/ss2.jpeg",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/indianCollaboration/ss3.jpeg",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/indianCollaboration/ss4.jpeg",
-    title: ""
-  },
-  ]
-},
+// {
+//       title:'MoU Signed with Agrawal Education Foundation, S. S. Agrawal College Campus, Agrawal College Road, Navsari, Gujarat',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/indianCollaboration/navsari.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/indianCollaboration/ss1.jpeg",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/indianCollaboration/ss2.jpeg",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/indianCollaboration/ss3.jpeg",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/indianCollaboration/ss4.jpeg",
+//     title: ""
+//   },
+//   ]
+// },
 {
       title:'Certificate of Appreciation Presented to Confab 360 Degree (India) by World Association For Sustainable Development In Recognition of our Valuable, Outstanding and Strategic Contribution International Partner',
       events: [
@@ -358,427 +432,427 @@ title: ""
 ]
 }, 
  
-  {
-      title:'MoU with Orchid University (UGC recognised), Sikkim, for Ph.D, DBA, D.Litt Post-Doc, Post- Graduate Diploma and Degree Programs',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/indianCollaboration/orc1.webp",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/indianCollaboration/orc2.webp",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/indianCollaboration/orc3.webp",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/indianCollaboration/orc4.webp",
-    title: ""
-  },
-  ]
-},
+//   {
+//       title:'MoU with Orchid University (UGC recognised), Sikkim, for Ph.D, DBA, D.Litt Post-Doc, Post- Graduate Diploma and Degree Programs',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/indianCollaboration/orc1.webp",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/indianCollaboration/orc2.webp",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/indianCollaboration/orc3.webp",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/indianCollaboration/orc4.webp",
+//     title: ""
+//   },
+//   ]
+// },
   
-  {
-      title:'Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/gallery/RWApril (1).jpg",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/gallery/RWApril (2).jpg",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/gallery/RWApril (3).jpg",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/gallery/RWApril (4).jpg",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/gallery/RWApril (5).jpg",
-    title: ""
-  },
-  {
-    id: 6,
-    image: "/assets/images/gallery/RWApril (6).jpg",
-    title: ""
-  },
-  {
-    id: 7,
-    image: "/assets/images/gallery/RWApril (7).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (8).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (9).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (10).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (11).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (12).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (13).jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/RWApril (14).jpg",
-    title: ""
-  },
-]
-},
+//   {
+//       title:'Research Writing and Case Development Training Program (AICTE and MEPSC Approved Training Program)',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/gallery/RWApril (1).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/gallery/RWApril (2).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/gallery/RWApril (3).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/gallery/RWApril (4).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/gallery/RWApril (5).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 6,
+//     image: "/assets/images/gallery/RWApril (6).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 7,
+//     image: "/assets/images/gallery/RWApril (7).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (8).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (9).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (10).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (11).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (12).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (13).jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/RWApril (14).jpg",
+//     title: ""
+//   },
+// ]
+// },
   
-  {
-      title:'AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/gallery/Manipal(1).JPG",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/gallery/Manipal(2).JPG",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/gallery/Manipal(3).JPG",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/gallery/Manipal(4).JPG",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/gallery/Manipal(5).JPG",
-    title: ""
-  },
-  {
-    id: 6,
-    image: "/assets/images/gallery/Manipal(6).JPG",
-    title: ""
-  },
-  {
-    id: 7,
-    image: "/assets/images/gallery/Manipal(7).JPG",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/Manipal(8).JPG",
-    title: ""
-  },
+//   {
+//       title:'AI, Sustainability & Industry Conclave - Manipal Academy of Higher Education, Bengaluru',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/gallery/Manipal(1).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/gallery/Manipal(2).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/gallery/Manipal(3).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/gallery/Manipal(4).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/gallery/Manipal(5).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 6,
+//     image: "/assets/images/gallery/Manipal(6).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 7,
+//     image: "/assets/images/gallery/Manipal(7).JPG",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/Manipal(8).JPG",
+//     title: ""
+//   },
   
-]
-},
+// ]
+// },
 
-  {
-      title:'AI Conclave 2026 - From Insights to Impact - Vijay Patil School of Management, D Y Patil University, Pune, India',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/gallery/AIConc261.JPG",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/gallery/AIConc262.JPG",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/gallery/AIConc263.JPG",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/gallery/AIConc264.JPG",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/gallery/AIConc265.JPG",
-    title: ""
-  },
-  {
-    id: 6,
-    image: "/assets/images/gallery/AIConc266.JPG",
-    title: ""
-  },
-  {
-    id: 7,
-    image: "/assets/images/gallery/AIConc267.JPG",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/AIConc268.JPG",
-    title: ""
-  },
-  {
-    id: 9,
-    image: "/assets/images/gallery/AIConc269.JPG",
-    title: ""
-  },
-  {
-    id: 10,
-    image: "/assets/images/gallery/AIConc2610.JPG",
-    title: ""
-  },
-  {
-    id: 11,
-    image: "/assets/images/gallery/AIConc2613.JPG",
-    title: ""
-  },
-  {
-    id: 12,
-    image: "/assets/images/gallery/AIConc2614.JPG",
-    title: ""
-  },
- {
-    id: 12,
-    image: "/assets/images/gallery/AIConc2615.JPG",
-    title: ""
-  } 
-]
+//   {
+//       title:'AI Conclave 2026 - From Insights to Impact - Vijay Patil School of Management, D Y Patil University, Pune, India',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/gallery/AIConc261.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/gallery/AIConc262.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/gallery/AIConc263.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/gallery/AIConc264.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/gallery/AIConc265.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 6,
+//     image: "/assets/images/gallery/AIConc266.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 7,
+//     image: "/assets/images/gallery/AIConc267.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/AIConc268.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 9,
+//     image: "/assets/images/gallery/AIConc269.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 10,
+//     image: "/assets/images/gallery/AIConc2610.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 11,
+//     image: "/assets/images/gallery/AIConc2613.JPG",
+//     title: ""
+//   },
+//   {
+//     id: 12,
+//     image: "/assets/images/gallery/AIConc2614.JPG",
+//     title: ""
+//   },
+//  {
+//     id: 12,
+//     image: "/assets/images/gallery/AIConc2615.JPG",
+//     title: ""
+//   } 
+// ]
   
-},
+// },
   
-  {
-      title:'A Global Conference on AI-Driven Sustainable Technologies & Higher Education Innovation (Conglomeration of Industry & Academia—Bringing Innovation & Research Together)',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/gallery/GCADSTHEI (1).webp",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/gallery/GCADSTHEI (2).webp",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/gallery/GCADSTHEI (3).webp",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/gallery/GCADSTHEI (4).webp",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/gallery/GCADSTHEI (5).webp",
-    title: ""
-  },
-  {
-    id: 6,
-    image: "/assets/images/gallery/GCADSTHEI (6).webp",
-    title: ""
-  },
-  {
-    id: 7,
-    image: "/assets/images/gallery/GCADSTHEI (7).webp",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/GCADSTHEI (8).webp",
-    title: ""
-  },
-  {
-    id: 9,
-    image: "/assets/images/gallery/GCADSTHEI (9).webp",
-    title: ""
-  },
-  {
-    id: 10,
-    image: "/assets/images/gallery/GCADSTHEI (10).webp",
-    title: ""
-  },
-  {
-    id: 11,
-    image: "/assets/images/gallery/GCADSTHEI (11).webp",
-    title: ""
-  },
-  {
-    id: 12,
-    image: "/assets/images/gallery/GCADSTHEI (12).webp",
-    title: ""
-  },
+//   {
+//       title:'A Global Conference on AI-Driven Sustainable Technologies & Higher Education Innovation (Conglomeration of Industry & Academia—Bringing Innovation & Research Together)',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/gallery/GCADSTHEI (1).webp",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/gallery/GCADSTHEI (2).webp",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/gallery/GCADSTHEI (3).webp",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/gallery/GCADSTHEI (4).webp",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/gallery/GCADSTHEI (5).webp",
+//     title: ""
+//   },
+//   {
+//     id: 6,
+//     image: "/assets/images/gallery/GCADSTHEI (6).webp",
+//     title: ""
+//   },
+//   {
+//     id: 7,
+//     image: "/assets/images/gallery/GCADSTHEI (7).webp",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/GCADSTHEI (8).webp",
+//     title: ""
+//   },
+//   {
+//     id: 9,
+//     image: "/assets/images/gallery/GCADSTHEI (9).webp",
+//     title: ""
+//   },
+//   {
+//     id: 10,
+//     image: "/assets/images/gallery/GCADSTHEI (10).webp",
+//     title: ""
+//   },
+//   {
+//     id: 11,
+//     image: "/assets/images/gallery/GCADSTHEI (11).webp",
+//     title: ""
+//   },
+//   {
+//     id: 12,
+//     image: "/assets/images/gallery/GCADSTHEI (12).webp",
+//     title: ""
+//   },
   
-]
+// ]
 
-  },
+//   },
   
   
-  {
-      title:'Mega Dubai Conference - 2025',
-      events: [
-  {
-    id: 1,
-    image: "/assets/images/gallery/megaDubai1.jpg",
-    title: ""
-  },
-  {
-    id: 2,
-    image: "/assets/images/gallery/megaDubai2.jpg",
-    title: ""
-  },
-  {
-    id: 3,
-    image: "/assets/images/gallery/megaDubai3.jpg",
-    title: ""
-  },
-  {
-    id: 4,
-    image: "/assets/images/gallery/megaDubai4.jpg",
-    title: ""
-  },
-  {
-    id: 5,
-    image: "/assets/images/gallery/megaDubai5.jpg",
-    title: ""
-  },
-  {
-    id: 6,
-    image: "/assets/images/gallery/megaDubai6.jpg",
-    title: ""
-  },
-  {
-    id: 7,
-    image: "/assets/images/gallery/megaDubai7.jpg",
-    title: ""
-  },
-  {
-    id: 8,
-    image: "/assets/images/gallery/megaDubai8.jpg",
-    title: ""
-  },
-  {
-    id: 9,
-    image: "/assets/images/gallery/megaDubai9.jpg",
-    title: ""
-  },
-  {
-    id: 10,
-    image: "/assets/images/gallery/megaDubai10.jpg",
-    title: ""
-  },
-  {
-    id: 11,
-    image: "/assets/images/gallery/megaDubai11.jpg",
-    title: ""
-  },
-  {
-    id: 12,
-    image: "/assets/images/gallery/megaDubai12.jpg",
-    title: ""
-  },
-  {
-    id: 13,
-    image: "/assets/images/gallery/megaDubai13.jpg",
-    title: ""
-  },
-  {
-    id: 14,
-    image: "/assets/images/gallery/megaDubai14.jpg",
-    title: ""
-  },
-  {
-    id: 15,
-    image: "/assets/images/gallery/megaDubai15.jpg",
-    title: ""
-  },
-  {
-    id: 16,
-    image: "/assets/images/gallery/megaDubai16.jpg",
-    title: ""
-  },
-  {
-    id: 17,
-    image: "/assets/images/gallery/megaDubai17.jpg",
-    title: ""
-  },
-  {
-    id: 18,
-    image: "/assets/images/gallery/megaDubai18.jpg",
-    title: ""
-  },
-  {
-    id: 19,
-    image: "/assets/images/gallery/megaDubai19.jpg",
-    title: ""
-  },
-  {
-    id: 20,
-    image: "/assets/images/gallery/megaDubai20.jpg",
-    title: ""
-  },
-  {
-    id: 21,
-    image: "/assets/images/gallery/megaDubai21.jpg",
-    title: ""
-  },
-  {
-    id: 22,
-    image: "/assets/images/gallery/megaDubai22.jpg",
-    title: ""
-  },
-  {
-    id: 23,
-    image: "/assets/images/gallery/megaDubai23.jpg",
-    title: ""
-  },
-  {
-    id: 24,
-    image: "/assets/images/gallery/megaDubai24.jpg",
-    title: ""
-  },
-  {
-    id: 25,
-    image: "/assets/images/gallery/megaDubai25.jpg",
-    title: ""
-  }
-]
+//   {
+//       title:'Mega Dubai Conference - 2025',
+//       events: [
+//   {
+//     id: 1,
+//     image: "/assets/images/gallery/megaDubai1.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 2,
+//     image: "/assets/images/gallery/megaDubai2.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 3,
+//     image: "/assets/images/gallery/megaDubai3.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 4,
+//     image: "/assets/images/gallery/megaDubai4.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 5,
+//     image: "/assets/images/gallery/megaDubai5.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 6,
+//     image: "/assets/images/gallery/megaDubai6.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 7,
+//     image: "/assets/images/gallery/megaDubai7.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 8,
+//     image: "/assets/images/gallery/megaDubai8.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 9,
+//     image: "/assets/images/gallery/megaDubai9.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 10,
+//     image: "/assets/images/gallery/megaDubai10.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 11,
+//     image: "/assets/images/gallery/megaDubai11.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 12,
+//     image: "/assets/images/gallery/megaDubai12.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 13,
+//     image: "/assets/images/gallery/megaDubai13.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 14,
+//     image: "/assets/images/gallery/megaDubai14.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 15,
+//     image: "/assets/images/gallery/megaDubai15.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 16,
+//     image: "/assets/images/gallery/megaDubai16.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 17,
+//     image: "/assets/images/gallery/megaDubai17.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 18,
+//     image: "/assets/images/gallery/megaDubai18.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 19,
+//     image: "/assets/images/gallery/megaDubai19.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 20,
+//     image: "/assets/images/gallery/megaDubai20.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 21,
+//     image: "/assets/images/gallery/megaDubai21.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 22,
+//     image: "/assets/images/gallery/megaDubai22.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 23,
+//     image: "/assets/images/gallery/megaDubai23.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 24,
+//     image: "/assets/images/gallery/megaDubai24.jpg",
+//     title: ""
+//   },
+//   {
+//     id: 25,
+//     image: "/assets/images/gallery/megaDubai25.jpg",
+//     title: ""
+//   }
+// ]
 
-  },
+//   },
   {
       title:'CII AGRINEXT Summit - Shaping Tomorrow: Agriculture, Sustainability & Innovation for a Resilient Future',
          events: [
@@ -824,125 +898,125 @@ title: ""
             },
       ],
     },
-   {
-      title:'MoU Signed with Purnima College of Engineering, Pune, India',
-         events: [
-          {
-            id: 1,
-            image:  "/assets/images/indianCollaboration/PCE1.jpg",
-            title: ""
-            },
-        {
-            id: 2,
-            image:  "/assets/images/indianCollaboration/PCE2.jpg",
-            title: ""
-            },
-         {
-            id: 3,
-            image:  "/assets/images/indianCollaboration/PCE3.jpg",
-            title: ""
-            },
-        {
-            id: 4,
-            image:  "/assets/images/indianCollaboration/PCE4.jpg",
-            title: ""
-            }
-      ],
-    },
-  {
-      title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
-         events: [
-          {
-            id: 1,
-            image:  "/assets/images/indianCollaboration/SPEC1.jpg",
-            title: ""
-            },
-        {
-            id: 2,
-            image:  "/assets/images/indianCollaboration/SPEC2.jpg",
-            title: ""
-            },
-         {
-            id: 3,
-            image:  "/assets/images/indianCollaboration/SPEC3.jpg",
-            title: ""
-            },
-        {
-            id: 4,
-            image:  "/assets/images/indianCollaboration/SPEC4.jpg",
-            title: ""
-            }
-      ],
-    },
-    {
-      title:'International Conference on Artificial Intelligence-Led Innovations in Human-Machine Interaction – ICAIIHMI 2025',
-         events: [
-          {
-            id: 1,
-            image:  "/assets/images/gallery/event26-1.jpg",
-            title: ""
-            },
-        {
-            id: 2,
-            image:  "/assets/images/gallery/event26-2.jpg",
-            title: ""
-            },
-         {
-            id: 3,
-            image:  "/assets/images/gallery/event26-3.jpg",
-            title: ""
-            },
-        {
-            id: 4,
-            image:  "/assets/images/gallery/event26-4.jpg",
-            title: ""
-            },{
-            id: 5,
-            image:  "/assets/images/gallery/event26-5.jpg",
-            title: ""
-            },
-      ],
-    },
-    {
-        title: "WHITE CANVAS INDIA Young CEO Program (@WCI YCP)",
-        events: [
-            {
-            id: 1,
-            image: "/assets/images/AICTEAndMEPSC/WHITE-CANVAS-1.jpg",
-            title: ""
-            },
-            {
-            id: 2,
-            image: "/assets/images/AICTEAndMEPSC/WHITE-CANVAS-2.jpg",
-            title: ""
-            },
-        ]
-    },
-    {
-        title: "Northeast Leadership Summit 2025",
-        events: [
-  { id: 1, image: "/assets/images/gallery/NSE1.webp", title: "" },
-  { id: 2, image: "/assets/images/gallery/NSE2.webp", title: "" },
-  { id: 3, image: "/assets/images/gallery/NSE3.webp", title: "" },
-  { id: 4, image: "/assets/images/gallery/NSE4.webp", title: "" },
-  { id: 5, image: "/assets/images/gallery/NSE5.webp", title: "" },
-  { id: 6, image: "/assets/images/gallery/NSE6.webp", title: "" },
-  { id: 7, image: "/assets/images/gallery/NSE7.webp", title: "" },
-  { id: 8, image: "/assets/images/gallery/NSE8.webp", title: "" },
-  { id: 9, image: "/assets/images/gallery/NSE9.webp", title: "" },
-  { id: 10, image: "/assets/images/gallery/NSE10.webp", title: "" },
-  { id: 11, image: "/assets/images/gallery/NSE11.webp", title: "" },
-  { id: 12, image: "/assets/images/gallery/NSE12.webp", title: "" },
-  { id: 13, image: "/assets/images/gallery/NSE13.webp", title: "" },
-  { id: 14, image: "/assets/images/gallery/NSE14.webp", title: "" },
-  { id: 15, image: "/assets/images/gallery/NSE15.webp", title: "" },
-  { id: 16, image: "/assets/images/gallery/NSE16.webp", title: "" },
-  { id: 17, image: "/assets/images/gallery/NSE17.webp", title: "" },
-  { id: 18, image: "/assets/images/gallery/NSE18.webp", title: "" },
-  { id: 19, image: "/assets/images/gallery/NSE19.webp", title: "" },
-  { id: 20, image: "/assets/images/gallery/NSE20.webp", title: "" },
-]
-    },
+//    {
+//       title:'MoU Signed with Purnima College of Engineering, Pune, India',
+//          events: [
+//           {
+//             id: 1,
+//             image:  "/assets/images/indianCollaboration/PCE1.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 2,
+//             image:  "/assets/images/indianCollaboration/PCE2.jpg",
+//             title: ""
+//             },
+//          {
+//             id: 3,
+//             image:  "/assets/images/indianCollaboration/PCE3.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 4,
+//             image:  "/assets/images/indianCollaboration/PCE4.jpg",
+//             title: ""
+//             }
+//       ],
+//     },
+//   {
+//       title:'MoU Signed with Sardar Patel Education Campus, Gujarat, India',
+//          events: [
+//           {
+//             id: 1,
+//             image:  "/assets/images/indianCollaboration/SPEC1.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 2,
+//             image:  "/assets/images/indianCollaboration/SPEC2.jpg",
+//             title: ""
+//             },
+//          {
+//             id: 3,
+//             image:  "/assets/images/indianCollaboration/SPEC3.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 4,
+//             image:  "/assets/images/indianCollaboration/SPEC4.jpg",
+//             title: ""
+//             }
+//       ],
+//     },
+//     {
+//       title:'International Conference on Artificial Intelligence-Led Innovations in Human-Machine Interaction – ICAIIHMI 2025',
+//          events: [
+//           {
+//             id: 1,
+//             image:  "/assets/images/gallery/event26-1.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 2,
+//             image:  "/assets/images/gallery/event26-2.jpg",
+//             title: ""
+//             },
+//          {
+//             id: 3,
+//             image:  "/assets/images/gallery/event26-3.jpg",
+//             title: ""
+//             },
+//         {
+//             id: 4,
+//             image:  "/assets/images/gallery/event26-4.jpg",
+//             title: ""
+//             },{
+//             id: 5,
+//             image:  "/assets/images/gallery/event26-5.jpg",
+//             title: ""
+//             },
+//       ],
+//     },
+//     {
+//         title: "WHITE CANVAS INDIA Young CEO Program (@WCI YCP)",
+//         events: [
+//             {
+//             id: 1,
+//             image: "/assets/images/AICTEAndMEPSC/WHITE-CANVAS-1.jpg",
+//             title: ""
+//             },
+//             {
+//             id: 2,
+//             image: "/assets/images/AICTEAndMEPSC/WHITE-CANVAS-2.jpg",
+//             title: ""
+//             },
+//         ]
+//     },
+//     {
+//         title: "Northeast Leadership Summit 2025",
+//         events: [
+//   { id: 1, image: "/assets/images/gallery/NSE1.webp", title: "" },
+//   { id: 2, image: "/assets/images/gallery/NSE2.webp", title: "" },
+//   { id: 3, image: "/assets/images/gallery/NSE3.webp", title: "" },
+//   { id: 4, image: "/assets/images/gallery/NSE4.webp", title: "" },
+//   { id: 5, image: "/assets/images/gallery/NSE5.webp", title: "" },
+//   { id: 6, image: "/assets/images/gallery/NSE6.webp", title: "" },
+//   { id: 7, image: "/assets/images/gallery/NSE7.webp", title: "" },
+//   { id: 8, image: "/assets/images/gallery/NSE8.webp", title: "" },
+//   { id: 9, image: "/assets/images/gallery/NSE9.webp", title: "" },
+//   { id: 10, image: "/assets/images/gallery/NSE10.webp", title: "" },
+//   { id: 11, image: "/assets/images/gallery/NSE11.webp", title: "" },
+//   { id: 12, image: "/assets/images/gallery/NSE12.webp", title: "" },
+//   { id: 13, image: "/assets/images/gallery/NSE13.webp", title: "" },
+//   { id: 14, image: "/assets/images/gallery/NSE14.webp", title: "" },
+//   { id: 15, image: "/assets/images/gallery/NSE15.webp", title: "" },
+//   { id: 16, image: "/assets/images/gallery/NSE16.webp", title: "" },
+//   { id: 17, image: "/assets/images/gallery/NSE17.webp", title: "" },
+//   { id: 18, image: "/assets/images/gallery/NSE18.webp", title: "" },
+//   { id: 19, image: "/assets/images/gallery/NSE19.webp", title: "" },
+//   { id: 20, image: "/assets/images/gallery/NSE20.webp", title: "" },
+// ]
+//     },
      {
         title: "MoU with the World Association for Sustainable Development (WASD)",
         events: [
@@ -1015,41 +1089,41 @@ title: ""
     },
 ]
     },
-     {
-        title: "One Nation One Election",
-        events: [
-   {
-      id: 1,
-      image: "/assets/images/gallery/ONOE1.webp",
-      title: ""
-    },
-    {
-      id: 2,
-      image: "/assets/images/gallery/ONOE2.webp",
-      title: ""
-    },
-    {
-      id: 3,
-      image: "/assets/images/gallery/ONOE3.webp",
-      title: ""
-    },
-    {
-      id: 4,
-      image: "/assets/images/gallery/ONOE4.webp",
-      title: ""
-    },
-    {
-      id: 5,
-      image: "/assets/images/gallery/ONOE6.webp",
-      title: ""
-    },
-    {
-      id: 6,
-      image: "/assets/images/gallery/ONOE6.webp",
-      title: ""
-    },
-]
-    },
+//      {
+//         title: "One Nation One Election",
+//         events: [
+//    {
+//       id: 1,
+//       image: "/assets/images/gallery/ONOE1.webp",
+//       title: ""
+//     },
+//     {
+//       id: 2,
+//       image: "/assets/images/gallery/ONOE2.webp",
+//       title: ""
+//     },
+//     {
+//       id: 3,
+//       image: "/assets/images/gallery/ONOE3.webp",
+//       title: ""
+//     },
+//     {
+//       id: 4,
+//       image: "/assets/images/gallery/ONOE4.webp",
+//       title: ""
+//     },
+//     {
+//       id: 5,
+//       image: "/assets/images/gallery/ONOE6.webp",
+//       title: ""
+//     },
+//     {
+//       id: 6,
+//       image: "/assets/images/gallery/ONOE6.webp",
+//       title: ""
+//     },
+// ]
+//     },
 ]
 
 

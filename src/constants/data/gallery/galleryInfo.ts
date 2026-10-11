@@ -717,4 +717,52 @@ export const GalleryList = [
     ],
       pointList:[]
     },
+    {
+       // id: 38,
+      title: "International Conference on Artificial Intelligence, Trade and Sustainability - 2026 (ICATS 2026), BML Munjal University, Gurugram",
+      info:'',
+      images: [
+       "/assets/images/PastEvent/ICATS/1.jpg",
+       "/assets/images/PastEvent/ICATS/2.jpg",
+       "/assets/images/PastEvent/ICATS/3.jpg",
+       "/assets/images/PastEvent/ICATS/4.jpg",
+       "/assets/images/PastEvent/ICATS/5.jpg",
+       "/assets/images/PastEvent/ICATS/6.jpg",
+       "/assets/images/PastEvent/ICATS/7.jpg",
+       "/assets/images/PastEvent/ICATS/8.jpg",
+       "/assets/images/PastEvent/ICATS/9.jpg",
+       "/assets/images/PastEvent/ICATS/10.jpg",
+       "/assets/images/PastEvent/ICATS/11.jpg",
+       "/assets/images/PastEvent/ICATS/12.jpg",
+       "/assets/images/PastEvent/ICATS/13.jpg",
+       "/assets/images/PastEvent/ICATS/14.jpg",
+       "/assets/images/PastEvent/ICATS/15.jpg",
+       "/assets/images/PastEvent/ICATS/16.jpg",
+       "/assets/images/PastEvent/ICATS/17.jpg",
+       "/assets/images/PastEvent/ICATS/18.jpg",
+       "/assets/images/PastEvent/ICATS/19.jpg",
+       "/assets/images/PastEvent/ICATS/20.jpg",
+       
+    ],
+      pointList:[]
+    },
+    {
+       // id: 39,
+      title: "AI, Technology, Marketing & Quality: International Symposium on Shaping the Future of Higher Education and Research, Raj Kumar Goel Institute of Technology, Ghaziabad, India",
+      info:'',
+      images: [
+       "/assets/images/PastEvent/RKGITSymp/1.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/2.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/3.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/4.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/5.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/6.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/7.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/8.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/9.jpeg",
+       "/assets/images/PastEvent/RKGITSymp/10.jpeg",
+          
+    ],
+      pointList:[]
+    },
 ]
