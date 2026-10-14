@@ -8,6 +8,28 @@ export type IndianCollaborationItem = {
 };
 
 export const IndianCollaborationsList:IndianCollaborationItem[] = [
+   {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/SDGIlogo.png',
+  title:'MoU Signed with SDGI Global University, Ghaziabad, Uttar Pradesh',
+  images:[
+  '/assets/images/indianCollaboration/SDGI.jpg',
+  '/assets/images/indianCollaboration/SDGI1.jpg',
+  '/assets/images/indianCollaboration/SDGI2.jpg',
+  
+   ],
+  link:'https://www.sgu.edu.in/'
+}, 
+    {
+  // key:20,
+  logo:'/assets/images/indianCollaboration/GIMSlogo.png',
+  title:'MoU Signed with GNIOT Institute of Management Studies (GIMS), Greater Noida, Uttar Pradesh',
+  images:[
+  '/assets/images/indianCollaboration/GIMS.jpg',
+  '/assets/images/indianCollaboration/GIMS1.jpg',
+  ],
+  link:'https://www.gims.net.in/'
+}, 
     {
   // key:20,
   logo:'/assets/images/indianCollaboration/sscollege.jpg',
