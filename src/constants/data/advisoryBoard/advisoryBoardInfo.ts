@@ -147,7 +147,7 @@ export const advisoryBoardList =[
     },
     {
         key:162,
-        image:'/assets/images/advisoryBoard/VK.jpg',
+        image:'/assets/images/advisoryBoard/KV.jpg',
         name:'Mr. K. Venkataraj',
         role:'Founder, MobilityNxt – EV Training & Skilling Organisation,Chennai',
         info:'With over 30 years of experience across IBM India, TCS, NIIT, and SAEINDIA, this professional specialises in business development, advanced automotive research, industry–academia collaboration, and educational consulting. As Director of Business Development at CAAR, IIT Madras, and an advisor to StartupTN for Mobility and EV, the focus is on translating research into industry solutions and helping engineering institutions improve NIRF rankings through strategic, research-driven development. Their expertise spans technology adoption, technical education, institutional growth, and international collaboration.',
