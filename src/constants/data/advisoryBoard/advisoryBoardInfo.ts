@@ -115,7 +115,7 @@ export const advisoryBoardList =[
     },
     {
         key:14,
-        image:'/assets/images/advisoryBoard/SS-Prasada-1.webp',
+        image:'/assets/images/advisoryBoard/SSY.jpg',
         name:'Mr. Sunil Subrahmanyam Yadavalli',
         role:'Mahindra University,Hyderabad, India',
         info:'A seasoned Business Consultant with over a decade of experience in advisory services & forging collaborations with global clients across APAC, Africa and Middle East. Passionate about knowledge sharing, I actively engage with universities and higher educational institutions in various roles, combining industry expertise with academic pursuits. Published 5 research papers and presented a paper in international conference on Business Analytics and Intelligence at IISc (Indian Institute of Science), Bangalore .',
@@ -123,7 +123,7 @@ export const advisoryBoardList =[
     },
      {
         key:14,
-        image:'/assets/images/advisoryBoard/SSY.jpg',
+        image:'/assets/images/advisoryBoard/SS-Prasada-1.webp',
         name:'Prof. SS Prasada Rao, Ph. D',
         role:'Professor in Finance, Welingkar Institute of Management Development and Research, Matunga, Mumbai',
         info:'Prior to his present position as Professor in Finance, at Welingkar Institute of Management Development and Research, Mumbai Prof. Prasada Rao has held several administrative portfolios at GITAM University such as Centre for Learning & Sustainability, Director, Academic Affairs, Founder Dean & Director of Hyderabad Business School (GHBS), Founding Director, Internal Quality Assurance Cell, and Founder Director, GITAM Centre for Distance Learning, Member of the Academic Council among several other positions. He was also on the Advisory Board of The Indian Management Researcher, a bi-annual journal of HBS. He also served as the Chairman of the Association of Indian Management Schools (AIMS), AP Chapter, and Executive Board Member of AIMS. Currently, he is serving as a Member of BoS/Advisory Council of many academic institutions. He was on the Expert Committee for the faculty recruitment of various institutions including IIMs. Prof. Prasada Rao is a member of many professional bodies such as Global Economic Progress & Research, Commerce Association, Economic Association, HMA, NHRD Network, and All India Management Association (AIMA). Prof. Prasada Rao believes in lifelong learning, and hence he has earned certifications from various globally reputed institutions/universities such as Financial Markets, and Yale University. Accounting for Decision Making, Michigan University.',
