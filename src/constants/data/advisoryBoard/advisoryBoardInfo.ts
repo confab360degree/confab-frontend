@@ -147,7 +147,7 @@ export const advisoryBoardList =[
     },
     {
         key:162,
-        image:'/assets/images/advisoryBoard/VK.JPG',
+        image:'/assets/images/advisoryBoard/VK.jpg',
         name:'Mr. K. Venkataraj',
         role:'Founder, MobilityNxt – EV Training & Skilling Organisation,Chennai',
         info:'With over 30 years of experience across IBM India, TCS, NIIT, and SAEINDIA, this professional specialises in business development, advanced automotive research, industry–academia collaboration, and educational consulting. As Director of Business Development at CAAR, IIT Madras, and an advisor to StartupTN for Mobility and EV, the focus is on translating research into industry solutions and helping engineering institutions improve NIRF rankings through strategic, research-driven development. Their expertise spans technology adoption, technical education, institutional growth, and international collaboration.',
@@ -155,7 +155,7 @@ export const advisoryBoardList =[
     },
     {
         key:161,
-        image:'/assets/images/advisoryBoard/SAK.JPG',
+        image:'/assets/images/advisoryBoard/SAK.jpg',
         name:'Dr. Sri (S) Sakuntala',
         role:'Associate Professor, Malla Reddy University, Hyderabad, India',
         info:'Dr. Sri (S) Sakuntala is an Associate Professor at the School of Sciences, Malla Reddy University, with a diverse academic portfolio in English literature, political studies, education, management and interdisciplinary research. Her scholarly contributions explore the intersections of literature, mental health, and socio-political violence, particularly focusing on children and marginalized voices. She has co-authored impactful papers on postmodern narratives, corruption, and the application of emerging technologies like blockchain in governance. With a critical lens on literary studies and contemporary socio-political issues, Dr. Sakuntala promotes holistic and transformative approaches to education and research. Her academic pursuits aim to bridge literature with real-world challenges, advocating for mental well-being, ethical governance, and inclusive discourse through her teaching and publications.',
