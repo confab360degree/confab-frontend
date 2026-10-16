@@ -93,7 +93,25 @@ export const ConferenceSessionsList =[
     'Partnerships for Sustainable Development'
   ]
 },
-    
+   {
+  key: 9,
+  title: ' Artificial Intelligence and Machine Learning for Cybersecurity',
+  sessionsList: [
+    'AI-Driven Cyber Threat Detection and Prevention',
+    'AI-Enabled Cloud Security and IoT Threat Detection',
+    'AI-Driven Fraud Detection and Financial Cybersecurity',
+    'Ethical AI, Data Privacy, and Responsible Cybersecurity Practices',
+    'Quantum Computing, AI, and Next-Generation Cybersecurity',
+    'AI-Driven Cyber Threat Detection and Prevention',
+    'AI-Enabled Cloud Security and IoT Threat Detection',
+    'AI-Driven Fraud Detection and Financial Cybersecurity',
+    'Ethical AI, Data Privacy, and Responsible Cybersecurity Practices',
+    'Quantum Computing, AI, and Next-Generation Cybersecurity',
+    'AI for Securing Critical Infrastructure and Smart Cities',
+    'AI-Driven Cybersecurity for Sustainable Digital Transformation',
+    'Emerging AI Technologies for Cybersecurity Education and Skills Development'
+  ]
+},
 ]
 
 
@@ -113,38 +131,38 @@ export const ImportantDateList = [
     //     Icon:LuCircleCheckBig
         
     // },
-    {
-    key: 1,
-    title: "Abstract Submission",
-    date: "30th September 2026",
-    status: "",
-    Icon: IoDocumentTextOutline,
-  },
-   {
-    key: 2,
-    title: "Decision on Abstract",
-    date: "20th October 2026",
-    status: "",
-    Icon: HiOutlineSpeakerphone,
-  },
+  //   {
+  //   key: 1,
+  //   title: "Abstract Submission",
+  //   date: "30th September 2026",
+  //   status: "",
+  //   Icon: IoDocumentTextOutline,
+  // },
+  //  {
+  //   key: 2,
+  //   title: "Decision on Abstract",
+  //   date: "20th October 2026",
+  //   status: "",
+  //   Icon: HiOutlineSpeakerphone,
+  // },
   {
     key: 3,
     title: "Full Paper Submission",
-    date: "20th November 2026",
+    date: "30th November 2026",
     status: "",
     Icon: IoDocumentTextOutline,
   },
   {
     key: 4,
     title: "Decision on Full Paper",
-    date: "10th December 2026",
+    date: "25th December 2026",
     status: "",
     Icon: HiOutlineSpeakerphone,
   },
   {
     key: 5,
     title: "Revised Paper Submission",
-    date: "20th December 2026",
+    date: "10th January 2027",
     status: "",
     Icon: HiOutlineSpeakerphone,
   },
@@ -480,7 +498,6 @@ export const SCIntlList = [
 'Dr. Shreyas J., Manipal Institute of Technology, MAHE, Karnataka, India',
 'Dr. Jolly Masih, School of Management, BML Munjal University, Haryana, India',
 'Dr. Sonal Trivedi, Manav Rachna University, Faridabad, Haryana, India',
-'Dr. Pushan Kumar Dutta, Amity University Kolkata, India'
 
 
 ]

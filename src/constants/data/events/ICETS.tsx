@@ -553,6 +553,11 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
               detail:
                 "Pro Vice Chancellor, INTI International University, Malaysia",
             },
+            {
+              name: "Dr. Nishu Ayedee",
+              detail:
+                "Founder and CEO, Confab 360 Degree",
+            },
           ].map((item, index) => (
 
             <article
@@ -694,10 +699,10 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
               name: "Dr. Anagha Joshi",
               detail: "Vice Chancellor-Indira University",
             },
-            {
-              name: "Dr. Nishu Ayedee",
-              detail: "Founder and CEO, Confab 360 Degree",
-            },
+            // {
+            //   name: "Dr. Nishu Ayedee",
+            //   detail: "Founder and CEO, Confab 360 Degree",
+            // },
             {
               name: "Dr. Punam Bhoyar",
               detail: "Pro Vice Chancellor, Indira University",
@@ -1401,7 +1406,7 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
 
           <div className="rounded-xl border border-blue-100 bg-blue-50 p-5 text-center">
             <p className="text-sm font-semibold text-slate-800 sm:text-base">
-              Submission Email Id: confab360degree@gmail.com
+              Submission Email Id: conference@indirauniversity.edu.in
             </p>
             {/* <a
               href="https://www.conftool.net/icats2026"
@@ -1473,1159 +1478,1211 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
   //     </PageShell>
   //   ),
   // },
-  // {
-  //   key: "11",
-  //   label: "Publication Outlets",
-  //   children: (
-  //     <PageShell>
-  //       <div className="space-y-8">
-  //         <SectionHeading>Publication Opportunities</SectionHeading>
-  //         <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
-  //           <Carousel
-  //             autoplay
-  //             autoplaySpeed={4000}
-  //             slidesToScroll={1}
-  //             dots
-  //             arrows={false}
-  //             draggable
-  //           >
-  //             {publicationsList.map((item, index) => (
-  //               <div key={`${item.title}-${index}`} className="px-4 py-8 sm:px-8">
-  //                 <div className="mx-auto flex min-h-[300px] w-full max-w-sm flex-col items-center justify-center rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
-  //                   <div className="flex h-40 w-full items-center justify-center">
-  //                     <img
-  //                       src={item.image}
-  //                       alt={item.title}
-  //                       loading="lazy"
-  //                       className="max-h-full max-w-full object-contain"
-  //                     />
-  //                   </div>
-  //                   <h3 className="mt-5 text-center text-base font-bold text-slate-900">{item.title}</h3>
-  //                   {item.para && (
-  //                     <p className="mt-2 text-center text-sm font-semibold text-slate-600">{item.para}</p>
-  //                   )}
-  //                 </div>
-  //               </div>
-  //             ))}
-  //           </Carousel>
-  //         </div>
-  //         {/* <p className="text-center text-base font-bold text-slate-800 sm:text-xl">
-  //           Lecture Notes in Networks and Systems
-  //         </p> */}
-  //       </div>
-  //     </PageShell>
-  //   ),
-  // },
-//   {
-//   key: "12",
-//   label: "Registration Fees",
-
-//   children: (
-//     <PageShell>
-
-//       {/* =====================================================
-//           HEADER
-//       ===================================================== */}
-
-//       <div className="mb-8">
-
-//         <div className="flex items-center gap-3">
-
-//           <div
-//             className="
-//               w-11 h-11
-//               rounded-xl
-//               bg-orange-50
-//               flex items-center justify-center
-//               flex-shrink-0
-//             "
-//           >
-//             <LuTimer
-//               className="text-[#f27521]"
-//               size={22}
-//             />
-//           </div>
-
-//           <div>
-
-//             <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-//               Registration Fees
-//             </h2>
-
-//             <p className="text-sm text-gray-500 mt-1">
-//               Choose the registration category that best suits your
-//               participation.
-//             </p>
-
-//           </div>
-
-//         </div>
-
-//       </div>
-
-
-//       {/* =====================================================
-//           FEE CARDS
-//       ===================================================== */}
-
-//       <div
-//         className="
-//           grid
-//           grid-cols-1
-//           md:grid-cols-2
-//           xl:grid-cols-3
-//           gap-5
-//         "
-//       >
-
-//         {/* =================================================
-//             CARD 1
-//         ================================================= */}
-
-//         <div
-//           className="
-//             group
-//             relative
-//             overflow-hidden
-//             rounded-2xl
-//             border
-//             border-gray-200
-//             bg-white
-//             p-6
-//             shadow-sm
-//             transition-all
-//             duration-300
-//             hover:-translate-y-1
-//             hover:shadow-lg
-//           "
-//         >
-
-//           <div
-//             className="
-//               absolute
-//               top-0
-//               left-0
-//               w-full
-//               h-1
-//               bg-blue-500
-//             "
-//           />
-
-//           <div className="flex items-start justify-between gap-4">
-
-//             <div>
-
-//               <span
-//                 className="
-//                   inline-flex
-//                   items-center
-//                   rounded-full
-//                   bg-blue-50
-//                   px-3
-//                   py-1
-//                   text-xs
-//                   font-semibold
-//                   text-blue-700
-//                 "
-//               >
-//                 INDIA
-//               </span>
-
-//               <h3 className="mt-4 text-lg font-bold text-gray-900">
-//                 Only Attendee
-//               </h3>
-
-//             </div>
-
-//             <div className="text-2xl">
-//               🇮🇳
-//             </div>
-
-//           </div>
-
-
-//           <div className="mt-6">
-
-//             <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-//               Registration Fee
-//             </p>
-
-//             <p className="mt-1 text-3xl font-extrabold text-gray-900">
-//               ₹2,000
-//             </p>
-
-//           </div>
-
-
-//           <div
-//             className="
-//               mt-5
-//               flex
-//               items-center
-//               justify-between
-//               border-t
-//               border-gray-100
-//               pt-4
-//             "
-//           >
-
-//             <span className="text-sm text-gray-500">
-//               Mode
-//             </span>
-
-//             <span
-//               className="
-//                 rounded-full
-//                 bg-gray-100
-//                 px-3
-//                 py-1
-//                 text-xs
-//                 font-semibold
-//                 text-gray-700
-//               "
-//             >
-//               Offline
-//             </span>
-
-//           </div>
-
-//         </div>
-
-
-//         {/* =================================================
-//             CARD 2
-//         ================================================= */}
-
-//         <div
-//           className="
-//             group
-//             relative
-//             overflow-hidden
-//             rounded-2xl
-//             border
-//             border-blue-200
-//             bg-gradient-to-br
-//             from-blue-50
-//             to-white
-//             p-6
-//             shadow-sm
-//             transition-all
-//             duration-300
-//             hover:-translate-y-1
-//             hover:shadow-lg
-//           "
-//         >
-
-//           <div
-//             className="
-//               absolute
-//               top-0
-//               left-0
-//               w-full
-//               h-1
-//               bg-blue-600
-//             "
-//           />
-
-//           <div className="flex items-start justify-between gap-4">
-
-//             <div>
-
-//               <span
-//                 className="
-//                   inline-flex
-//                   items-center
-//                   rounded-full
-//                   bg-blue-100
-//                   px-3
-//                   py-1
-//                   text-xs
-//                   font-semibold
-//                   text-blue-700
-//                 "
-//               >
-//                 INDIA • AUTHOR
-//               </span>
-
-//               <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
-//                 Presentation + Springer Publication
-//               </h3>
-
-//             </div>
-
-//             <div className="text-2xl">
-//               📚
-//             </div>
-
-//           </div>
-
-
-//           <div className="mt-5">
-
-//             <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-//               Registration Fee
-//             </p>
-
-//             <p className="mt-1 text-3xl font-extrabold text-blue-700">
-//               ₹45,000
-//             </p>
-
-//           </div>
-
-
-//           <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
-//             Springer Proceedings (Scopus) – Authors
-//             (geographically diverse)
-//           </p>
-
-
-//           <div
-//             className="
-//               mt-5
-//               flex
-//               items-center
-//               justify-between
-//               border-t
-//               border-blue-100
-//               pt-4
-//             "
-//           >
-
-//             <span className="text-sm text-gray-500">
-//               Mode
-//             </span>
-
-//             <span
-//               className="
-//                 rounded-full
-//                 bg-blue-100
-//                 px-3
-//                 py-1
-//                 text-xs
-//                 font-semibold
-//                 text-blue-700
-//               "
-//             >
-//               Online / Offline
-//             </span>
-
-//           </div>
-
-//         </div>
-
-
-//         {/* =================================================
-//             CARD 3
-//         ================================================= */}
-
-//         <div
-//           className="
-//             group
-//             relative
-//             overflow-hidden
-//             rounded-2xl
-//             border
-//             border-orange-200
-//             bg-gradient-to-br
-//             from-orange-50
-//             to-white
-//             p-6
-//             shadow-sm
-//             transition-all
-//             duration-300
-//             hover:-translate-y-1
-//             hover:shadow-lg
-//           "
-//         >
-
-//           <div
-//             className="
-//               absolute
-//               top-0
-//               left-0
-//               w-full
-//               h-1
-//               bg-[#f27521]
-//             "
-//           />
-
-//           <div className="flex items-start justify-between gap-4">
-
-//             <div>
-
-//               <span
-//                 className="
-//                   inline-flex
-//                   items-center
-//                   rounded-full
-//                   bg-orange-100
-//                   px-3
-//                   py-1
-//                   text-xs
-//                   font-semibold
-//                   text-orange-700
-//                 "
-//               >
-//                 INDIA • PRESENTER
-//               </span>
-
-//               <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
-//                 Only Presentation
-//               </h3>
-
-//             </div>
-
-//             <div className="text-2xl">
-//               🎤
-//             </div>
-
-//           </div>
-
-
-//           <div className="mt-6">
-
-//             <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-//               Registration Fee
-//             </p>
-
-//             <p className="mt-1 text-3xl font-extrabold text-[#d85c16]">
-//               ₹7,080
-//             </p>
-
-//           </div>
-
-
-//           <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
-//             After conference considered for Scopus / WoS / ABDC
-//             journals. APC as per journals shortlisted.
-//           </p>
-
-
-//           <div
-//             className="
-//               mt-5
-//               flex
-//               items-center
-//               justify-between
-//               border-t
-//               border-orange-100
-//               pt-4
-//             "
-//           >
-
-//             <span className="text-sm text-gray-500">
-//               Mode
-//             </span>
-
-//             <span
-//               className="
-//                 rounded-full
-//                 bg-orange-100
-//                 px-3
-//                 py-1
-//                 text-xs
-//                 font-semibold
-//                 text-orange-700
-//               "
-//             >
-//               Online / Offline
-//             </span>
-
-//           </div>
-
-//         </div>
-
-
-//         {/* =================================================
-//             CARD 4
-//         ================================================= */}
-
-//         <div
-//           className="
-//             group
-//             relative
-//             overflow-hidden
-//             rounded-2xl
-//             border
-//             border-purple-200
-//             bg-gradient-to-br
-//             from-purple-50
-//             to-white
-//             p-6
-//             shadow-sm
-//             transition-all
-//             duration-300
-//             hover:-translate-y-1
-//             hover:shadow-lg
-//           "
-//         >
-
-//           <div
-//             className="
-//               absolute
-//               top-0
-//               left-0
-//               w-full
-//               h-1
-//               bg-purple-500
-//             "
-//           />
-
-//           <div className="flex items-start justify-between gap-4">
-
-//             <div>
-
-//               <span
-//                 className="
-//                   inline-flex
-//                   items-center
-//                   rounded-full
-//                   bg-purple-100
-//                   px-3
-//                   py-1
-//                   text-xs
-//                   font-semibold
-//                   text-purple-700
-//                 "
-//               >
-//                 INTERNATIONAL
-//               </span>
-
-//               <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
-//                 Presentation + Springer Publication
-//               </h3>
-
-//             </div>
-
-//             <div className="text-2xl">
-//               🌍
-//             </div>
-
-//           </div>
-
-
-//           <div className="mt-6">
-
-//             <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-//               Registration Fee
-//             </p>
-
-//             <p className="mt-1 text-3xl font-extrabold text-purple-700">
-//               $600
-//             </p>
-
-//           </div>
-
-
-//           <p className="mt-3 text-xs md:text-sm text-gray-600">
-//             Springer Proceedings (Scopus)
-//           </p>
-
-
-//           <div
-//             className="
-//               mt-5
-//               flex
-//               items-center
-//               justify-between
-//               border-t
-//               border-purple-100
-//               pt-4
-//             "
-//           >
-
-//             <span className="text-sm text-gray-500">
-//               Mode
-//             </span>
-
-//             <span
-//               className="
-//                 rounded-full
-//                 bg-purple-100
-//                 px-3
-//                 py-1
-//                 text-xs
-//                 font-semibold
-//                 text-purple-700
-//               "
-//             >
-//               Online / Offline
-//             </span>
-
-//           </div>
-
-//         </div>
-
-
-//         {/* =================================================
-//             CARD 5
-//         ================================================= */}
-
-//         <div
-//           className="
-//             group
-//             relative
-//             overflow-hidden
-//             rounded-2xl
-//             border
-//             border-green-200
-//             bg-gradient-to-br
-//             from-green-50
-//             to-white
-//             p-6
-//             shadow-sm
-//             transition-all
-//             duration-300
-//             hover:-translate-y-1
-//             hover:shadow-lg
-//           "
-//         >
-
-//           <div
-//             className="
-//               absolute
-//               top-0
-//               left-0
-//               w-full
-//               h-1
-//               bg-green-500
-//             "
-//           />
-
-//           <div className="flex items-start justify-between gap-4">
-
-//             <div>
-
-//               <span
-//                 className="
-//                   inline-flex
-//                   items-center
-//                   rounded-full
-//                   bg-green-100
-//                   px-3
-//                   py-1
-//                   text-xs
-//                   font-semibold
-//                   text-green-700
-//                 "
-//               >
-//                 INTERNATIONAL
-//               </span>
-
-//               <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
-//                 Only Presentation
-//               </h3>
-
-//             </div>
-
-//             <div className="text-2xl">
-//               🎤
-//             </div>
-
-//           </div>
-
-
-//           <div className="mt-6">
-
-//             <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
-//               Registration Fee
-//             </p>
-
-//             <p className="mt-1 text-3xl font-extrabold text-green-700">
-//               $200
-//             </p>
-
-//           </div>
-
-
-//           <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
-//             After conference considered for Scopus / WoS / ABDC
-//             journals. APC as per journals shortlisted.
-//           </p>
-
-
-//           <div
-//             className="
-//               mt-5
-//               flex
-//               items-center
-//               justify-between
-//               border-t
-//               border-green-100
-//               pt-4
-//             "
-//           >
-
-//             <span className="text-sm text-gray-500">
-//               Mode
-//             </span>
-
-//             <span
-//               className="
-//                 rounded-full
-//                 bg-green-100
-//                 px-3
-//                 py-1
-//                 text-xs
-//                 font-semibold
-//                 text-green-700
-//               "
-//             >
-//               Online / Offline
-//             </span>
-
-//           </div>
-
-//         </div>
-
-//       </div>
-
-
-//       {/* =====================================================
-//           REGISTRATION INCLUDES
-//       ===================================================== */}
-
-//       <section className="mt-12">
-
-//         <div className="flex items-center gap-3 mb-6">
-
-//           <div
-//             className="
-//               w-10 h-10
-//               rounded-lg
-//               bg-orange-50
-//               flex
-//               items-center
-//               justify-center
-//             "
-//           >
-//             <LuUserRound
-//               className="text-[#f27521]"
-//               size={20}
-//             />
-//           </div>
-
-//           <div>
-
-//             <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-//               Registration Fee Includes
-//             </h2>
-
-//             <p className="text-sm text-gray-500 mt-1">
-//               Benefits included with your conference registration
-//             </p>
-
-//           </div>
-
-//         </div>
-
-
-//         <div
-//           className="
-//             grid
-//             grid-cols-1
-//             sm:grid-cols-2
-//             lg:grid-cols-3
-//             gap-4
-//           "
-//         >
-
-//           {[
-//             "Two-Days Research Writing and Case Writing Workshop (AICTE-NEAT Approved Certificate)",
-//             "Panel Discussion Access",
-//             "Access to all the sessions",
-//             "Keynote Speeches (Speakers from USA, Switzerland, UK etc.)",
-//             "Lunch for two days",
-//             "High Tea for two days",
-//             "Paper Review / Plagiarism and AI Check",
-//           ].map((item, index) => (
-
-//             <div
-//               key={index}
-//               className="
-//                 flex
-//                 items-start
-//                 gap-3
-//                 p-4
-//                 rounded-xl
-//                 border
-//                 border-gray-200
-//                 bg-white
-//                 hover:bg-gray-50
-//                 transition-colors
-//               "
-//             >
-
-//               <div
-//                 className="
-//                   flex-shrink-0
-//                   w-7
-//                   h-7
-//                   rounded-full
-//                   bg-green-100
-//                   text-green-700
-//                   flex
-//                   items-center
-//                   justify-center
-//                   font-bold
-//                   text-sm
-//                 "
-//               >
-//                 ✓
-//               </div>
-
-//               <p
-//                 className={`
-//                   text-sm
-//                   leading-relaxed
-//                   ${
-//                     index === 0
-//                       ? "text-[#d61c25] font-medium"
-//                       : "text-gray-700"
-//                   }
-//                 `}
-//               >
-//                 {item}
-//               </p>
-
-//             </div>
-
-//           ))}
-
-//         </div>
-
-//       </section>
-
-
-//       {/* =====================================================
-//           IMPORTANT NOTE
-//       ===================================================== */}
-
-//       <div
-//         className="
-//           mt-8
-//           flex
-//           items-start
-//           gap-3
-//           p-5
-//           rounded-xl
-//           bg-amber-50
-//           border
-//           border-amber-200
-//         "
-//       >
-
-//         <div className="text-xl flex-shrink-0">
-//           ⚠️
-//         </div>
-
-//         <div>
-
-//           <h3 className="font-bold text-amber-900">
-//             Important Note
-//           </h3>
-
-//           <p className="mt-1 text-sm text-amber-800 leading-relaxed">
-//             The publication charges for journal outlets are not included
-//             in the registration fees.
-//           </p>
-
-//         </div>
-
-//       </div>
-
-
-//       {/* =====================================================
-//           PAYMENT SECTION
-//       ===================================================== */}
-
-//       <section className="mt-12">
-
-//         <div className="flex items-center gap-3 mb-6">
-
-//           <div
-//             className="
-//               w-10 h-10
-//               rounded-lg
-//               bg-orange-50
-//               flex
-//               items-center
-//               justify-center
-//             "
-//           >
-//             <BsBank
-//               className="text-[#f27521]"
-//               size={20}
-//             />
-//           </div>
-
-//           <div>
-
-//             <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-//               Payment Details
-//             </h2>
-
-//             <p className="text-sm text-gray-500 mt-1">
-//               Complete your registration using bank transfer or online payment.
-//             </p>
-
-//           </div>
-
-//         </div>
-
-
-//         <div
-//           className="
-//             grid
-//             grid-cols-1
-//             lg:grid-cols-2
-//             gap-6
-//           "
-//         >
-
-//           {/* =================================================
-//               BANK DETAILS
-//           ================================================= */}
-
-//           <div
-//             className="
-//               rounded-2xl
-//               border
-//               border-gray-200
-//               bg-white
-//               overflow-hidden
-//             "
-//           >
-
-//             <div
-//               className="
-//                 bg-gray-50
-//                 border-b
-//                 border-gray-200
-//                 px-5
-//                 py-4
-//               "
-//             >
-
-//               <h3 className="font-bold text-gray-900">
-//                 Bank Account Details
-//               </h3>
-
-//             </div>
-
-
-//             <div className="p-5">
-
-//               <dl className="divide-y divide-gray-100">
-
-//                 <div className="py-3 first:pt-0 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     Beneficiary Name
-//                   </dt>
-
-//                   <dd className="text-sm font-semibold text-gray-900 sm:text-right">
-//                     CONFAB 360 DEGREE
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     Bank Name
-//                   </dt>
-
-//                   <dd className="text-sm text-gray-900 sm:text-right">
-//                     ICICI BANK, Mayapuri, Delhi, India
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     Account Number
-//                   </dt>
-
-//                   <dd className="text-sm font-semibold text-gray-900 sm:text-right break-all">
-//                     925010035781364
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     Account Type
-//                   </dt>
-
-//                   <dd className="text-sm text-gray-900 sm:text-right">
-//                     Current Account
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     Branch
-//                   </dt>
-
-//                   <dd className="text-sm text-gray-900 sm:text-right">
-//                     Mayapuri, Delhi, India
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     IFSC Code
-//                   </dt>
-
-//                   <dd className="text-sm font-semibold text-gray-900 sm:text-right">
-//                     ICIC0001818
-//                   </dd>
-
-//                 </div>
-
-
-//                 <div className="py-3 last:pb-0 flex flex-col sm:flex-row sm:justify-between gap-1">
-
-//                   <dt className="text-sm font-semibold text-gray-500">
-//                     SWIFT Code
-//                     <span className="block text-xs font-normal text-gray-400">
-//                       International Payments
-//                     </span>
-//                   </dt>
-
-//                   <dd className="text-sm font-semibold text-gray-900 sm:text-right">
-//                     ICICINBBCTS
-//                   </dd>
-
-//                 </div>
-
-//               </dl>
-
-//             </div>
-
-//           </div>
-
-
-//           {/* =================================================
-//               ONLINE PAYMENT
-//           ================================================= */}
-
-//           <div
-//             className="
-//               rounded-2xl
-//               border
-//               border-blue-200
-//               bg-gradient-to-br
-//               from-blue-50
-//               to-white
-//               p-6
-//               flex
-//               flex-col
-//               items-center
-//               justify-center
-//               text-center
-//             "
-//           >
-
-//             <span
-//               className="
-//                 inline-flex
-//                 items-center
-//                 rounded-full
-//                 bg-blue-100
-//                 px-4
-//                 py-1.5
-//                 text-xs
-//                 font-bold
-//                 text-blue-700
-//                 mb-4
-//               "
-//             >
-//               ONLINE PAYMENT
-//             </span>
-
-
-//             <h3 className="text-xl font-bold text-gray-900">
-//               Scan or Click to Pay
-//             </h3>
-
-
-//             <p className="mt-2 text-sm text-gray-600">
-//               Use the QR code below to proceed with payment.
-//             </p>
-
-
-//             <a
-//               href="https://razorpay.me/@confab360degree1628"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               aria-label="Open Confab 360 Degree online payment page"
-//               className="
-//                 mt-5
-//                 rounded-2xl
-//                 focus:outline-none
-//                 focus:ring-2
-//                 focus:ring-blue-500
-//                 focus:ring-offset-2
-//               "
-//             >
-
-//               <div
-//                 className="
-//                   w-48
-//                   h-48
-//                   sm:w-52
-//                   sm:h-52
-//                   bg-white
-//                   border
-//                   border-gray-200
-//                   rounded-2xl
-//                   p-2
-//                   flex
-//                   items-center
-//                   justify-center
-//                   shadow-sm
-//                   hover:shadow-xl
-//                   transition-shadow
-//                 "
-//               >
-
-//                 <img
-//                   src="/assets/images/payment/payment.svg"
-//                   alt="Payment QR Code"
-//                   className="w-full h-full object-contain"
-//                 />
-
-//               </div>
-
-//             </a>
-
-
-//             <p className="mt-4 text-xs text-gray-500">
-//               Click the QR code to open the payment page
-//             </p>
-
-//           </div>
-
-//         </div>
-
-//       </section>
-
-//     </PageShell>
-//   ),
-// },
+  {
+    key: "11",
+    label: "Publication Outlets",
+    children: (
+      <PageShell>
+        <div className="space-y-8">
+          <SectionHeading>Publication Opportunities</SectionHeading>
+          <div className="overflow-hidden rounded-xl border border-slate-200 bg-slate-50">
+            <Carousel
+              autoplay
+              autoplaySpeed={4000}
+              slidesToScroll={1}
+              dots
+              arrows={false}
+              draggable
+            >
+              {publicationsList.map((item, index) => (
+                <div key={`${item.title}-${index}`} className="px-4 py-8 sm:px-8">
+                  <div className="mx-auto flex min-h-[300px] w-full max-w-sm flex-col items-center justify-center rounded-xl border border-slate-200 bg-white p-5 shadow-sm">
+                    <div className="flex h-40 w-full items-center justify-center">
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        loading="lazy"
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                    <h3 className="mt-5 text-center text-base font-bold text-slate-900">{item.title}</h3>
+                    {item.para && (
+                      <p className="mt-2 text-center text-sm font-semibold text-slate-600">{item.para}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </Carousel>
+          </div>
+          {/* <p className="text-center text-base font-bold text-slate-800 sm:text-xl">
+            Lecture Notes in Networks and Systems
+          </p> */}
+        </div>
+      </PageShell>
+    ),
+  },
+  {
+  key: "12",
+  label: "Registration Fees",
+
+  children: (
+    <PageShell>
+
+      {/* =====================================================
+          HEADER
+      ===================================================== */}
+
+      <div className="mb-8">
+
+        <div className="flex items-center gap-3">
+
+          <div
+            className="
+              w-11 h-11
+              rounded-xl
+              bg-orange-50
+              flex items-center justify-center
+              flex-shrink-0
+            "
+          >
+            <LuTimer
+              className="text-[#f27521]"
+              size={22}
+            />
+          </div>
+
+          <div>
+
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+              Registration Fees
+            </h2>
+
+            <p className="text-sm text-gray-500 mt-1">
+              Choose the registration category that best suits your
+              participation.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      {/* =====================================================
+          FEE CARDS
+      ===================================================== */}
+
+      <div
+        className="
+          grid
+          grid-cols-1
+          md:grid-cols-2
+          xl:grid-cols-3
+          gap-5
+        "
+      >
+
+        {/* =================================================
+            CARD 1
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-gray-200
+            bg-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-blue-500
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-blue-50
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-blue-700
+                "
+              >
+                INDIA
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900">
+                Student
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              🇮🇳
+            </div>
+
+          </div>
+
+
+          <div className="mt-6">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-gray-900">
+              ₹1,000 (Online) / ₹1,750 (Offline)
+            </p>
+
+          </div>
+
+
+          
+
+        </div>
+
+
+        {/* =================================================
+            CARD 2
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-blue-200
+            bg-gradient-to-br
+            from-blue-50
+            to-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-blue-600
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-blue-100
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-blue-700
+                "
+              >
+                INDIA • AUTHOR
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
+                Industry
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              📚
+            </div>
+
+          </div>
+
+
+          <div className="mt-5">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-blue-700">
+              ₹1000 (Online) / ₹2500 (Offline)
+            </p>
+
+          </div>
+
+
+
+        </div>
+
+
+        {/* =================================================
+            CARD 3
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-orange-200
+            bg-gradient-to-br
+            from-orange-50
+            to-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-[#f27521]
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-orange-100
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-orange-700
+                "
+              >
+                INDIA • PRESENTER
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
+                Research Scholar and Faculty
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              🎤
+            </div>
+
+          </div>
+
+
+          <div className="mt-6">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-[#d85c16]">
+              ₹1000 (Online) / ₹2000 (Offline)
+            </p>
+
+          </div>
+
+
+          {/* <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
+            After conference considered for Scopus / WoS / ABDC
+            journals. APC as per journals shortlisted.
+          </p> */}
+
+
+          {/* <div
+            className="
+              mt-5
+              flex
+              items-center
+              justify-between
+              border-t
+              border-orange-100
+              pt-4
+            "
+          >
+
+            <span className="text-sm text-gray-500">
+              Mode
+            </span>
+
+            <span
+              className="
+                rounded-full
+                bg-orange-100
+                px-3
+                py-1
+                text-xs
+                font-semibold
+                text-orange-700
+              "
+            >
+              Online / Offline
+            </span>
+
+          </div> */}
+
+        </div>
+
+
+        {/* =================================================
+            CARD 4
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-purple-200
+            bg-gradient-to-br
+            from-purple-50
+            to-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-purple-500
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-purple-100
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-purple-700
+                "
+              >
+                INTERNATIONAL
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
+                International Students
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              🌍
+            </div>
+
+          </div>
+
+
+          <div className="mt-6">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-purple-700">
+              $50 (Online) / $80 (Offline)
+            </p>
+
+          </div>
+
+
+          {/* <p className="mt-3 text-xs md:text-sm text-gray-600">
+            Springer Proceedings (Scopus)
+          </p> */}
+
+
+          {/* <div
+            className="
+              mt-5
+              flex
+              items-center
+              justify-between
+              border-t
+              border-purple-100
+              pt-4
+            "
+          >
+
+            <span className="text-sm text-gray-500">
+              Mode
+            </span>
+
+            <span
+              className="
+                rounded-full
+                bg-purple-100
+                px-3
+                py-1
+                text-xs
+                font-semibold
+                text-purple-700
+              "
+            >
+              Online / Offline
+            </span>
+
+          </div> */}
+
+        </div>
+
+
+        {/* =================================================
+            CARD 5
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-green-200
+            bg-gradient-to-br
+            from-green-50
+            to-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-green-500
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-green-100
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-green-700
+                "
+              >
+                INTERNATIONAL
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
+                International Research Scholar and Faculty
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              🎤
+            </div>
+
+          </div>
+
+
+          <div className="mt-6">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-green-700">
+              $50 (Online) / $100 (Offline)
+            </p>
+
+          </div>
+
+
+          {/* <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
+            After conference considered for Scopus / WoS / ABDC
+            journals. APC as per journals shortlisted.
+          </p>
+
+
+          <div
+            className="
+              mt-5
+              flex
+              items-center
+              justify-between
+              border-t
+              border-green-100
+              pt-4
+            "
+          >
+
+            <span className="text-sm text-gray-500">
+              Mode
+            </span>
+
+            <span
+              className="
+                rounded-full
+                bg-green-100
+                px-3
+                py-1
+                text-xs
+                font-semibold
+                text-green-700
+              "
+            >
+              Online / Offline
+            </span>
+
+          </div> */}
+
+        </div>
+{/* =================================================
+            CARD 5
+        ================================================= */}
+
+        <div
+          className="
+            group
+            relative
+            overflow-hidden
+            rounded-2xl
+            border
+            border-green-200
+            bg-gradient-to-br
+            from-green-50
+            to-white
+            p-6
+            shadow-sm
+            transition-all
+            duration-300
+            hover:-translate-y-1
+            hover:shadow-lg
+          "
+        >
+
+          <div
+            className="
+              absolute
+              top-0
+              left-0
+              w-full
+              h-1
+              bg-green-500
+            "
+          />
+
+          <div className="flex items-start justify-between gap-4">
+
+            <div>
+
+              <span
+                className="
+                  inline-flex
+                  items-center
+                  rounded-full
+                  bg-green-100
+                  px-3
+                  py-1
+                  text-xs
+                  font-semibold
+                  text-green-700
+                "
+              >
+                NATIONAL/INTERNATIONAL
+              </span>
+
+              <h3 className="mt-4 text-lg font-bold text-gray-900 leading-snug">
+                Atendee
+              </h3>
+
+            </div>
+
+            <div className="text-2xl">
+              🎤
+            </div>
+
+          </div>
+
+
+          <div className="mt-6">
+
+            <p className="text-xs font-medium uppercase tracking-wide text-gray-500">
+              Registration Fee
+            </p>
+
+            <p className="mt-1 text-3xl font-extrabold text-green-700">
+             INR 1400 (Online) / INR 1400 (Offline)
+            </p>
+
+          </div>
+
+
+          {/* <p className="mt-3 text-xs md:text-sm text-gray-600 leading-relaxed">
+            After conference considered for Scopus / WoS / ABDC
+            journals. APC as per journals shortlisted.
+          </p>
+
+
+          <div
+            className="
+              mt-5
+              flex
+              items-center
+              justify-between
+              border-t
+              border-green-100
+              pt-4
+            "
+          >
+
+            <span className="text-sm text-gray-500">
+              Mode
+            </span>
+
+            <span
+              className="
+                rounded-full
+                bg-green-100
+                px-3
+                py-1
+                text-xs
+                font-semibold
+                text-green-700
+              "
+            >
+              Online / Offline
+            </span>
+
+          </div> */}
+
+        </div>
+      </div>
+
+
+      {/* =====================================================
+          REGISTRATION INCLUDES
+      ===================================================== */}
+
+      <section className="mt-12">
+
+        <div className="flex items-center gap-3 mb-6">
+
+          <div
+            className="
+              w-10 h-10
+              rounded-lg
+              bg-orange-50
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <LuUserRound
+              className="text-[#f27521]"
+              size={20}
+            />
+          </div>
+
+          <div>
+
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+              Registration Fee Includes
+            </h2>
+
+            <p className="text-sm text-gray-500 mt-1">
+              Benefits included with your conference registration
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div
+          className="
+            grid
+            grid-cols-1
+            sm:grid-cols-2
+            lg:grid-cols-3
+            gap-4
+          "
+        >
+
+          {[
+            "Two-Days Research Writing and Case Writing Workshop (AICTE-NEAT Approved Certificate)",
+            "Panel Discussion Access",
+            "Access to all the sessions",
+            "Keynote Speeches (Speakers from USA, Switzerland, UK etc.)",
+            "Lunch for two days",
+            "High Tea for two days",
+            "Paper Review / Plagiarism and AI Check",
+          ].map((item, index) => (
+
+            <div
+              key={index}
+              className="
+                flex
+                items-start
+                gap-3
+                p-4
+                rounded-xl
+                border
+                border-gray-200
+                bg-white
+                hover:bg-gray-50
+                transition-colors
+              "
+            >
+
+              <div
+                className="
+                  flex-shrink-0
+                  w-7
+                  h-7
+                  rounded-full
+                  bg-green-100
+                  text-green-700
+                  flex
+                  items-center
+                  justify-center
+                  font-bold
+                  text-sm
+                "
+              >
+                ✓
+              </div>
+
+              <p
+                className={`
+                  text-sm
+                  leading-relaxed
+                  ${
+                    index === 0
+                      ? "text-[#d61c25] font-medium"
+                      : "text-gray-700"
+                  }
+                `}
+              >
+                {item}
+              </p>
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+      {/* =====================================================
+          IMPORTANT NOTE
+      ===================================================== */}
+
+      <div
+        className="
+          mt-8
+          flex
+          items-start
+          gap-3
+          p-5
+          rounded-xl
+          bg-amber-50
+          border
+          border-amber-200
+        "
+      >
+
+        <div className="text-xl flex-shrink-0">
+          ⚠️
+        </div>
+
+        <div>
+
+          <h3 className="font-bold text-amber-900">
+            Important Note
+          </h3>
+
+          <p className="mt-1 text-sm text-amber-800 leading-relaxed">
+            The publication charges for journal outlets are not included
+            in the registration fees.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      {/* =====================================================
+          PAYMENT SECTION
+      ===================================================== */}
+
+      <section className="mt-12">
+
+        <div className="flex items-center gap-3 mb-6">
+
+          <div
+            className="
+              w-10 h-10
+              rounded-lg
+              bg-orange-50
+              flex
+              items-center
+              justify-center
+            "
+          >
+            <BsBank
+              className="text-[#f27521]"
+              size={20}
+            />
+          </div>
+
+          <div>
+
+            <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+              Payment Details
+            </h2>
+
+            <p className="text-sm text-gray-500 mt-1">
+              Complete your registration using bank transfer or online payment.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div
+          className="
+            grid
+            grid-cols-1
+            lg:grid-cols-2
+            gap-6
+          "
+        >
+
+          {/* =================================================
+              BANK DETAILS
+          ================================================= */}
+
+          <div
+            className="
+              rounded-2xl
+              border
+              border-gray-200
+              bg-white
+              overflow-hidden
+            "
+          >
+
+            <div
+              className="
+                bg-gray-50
+                border-b
+                border-gray-200
+                px-5
+                py-4
+              "
+            >
+
+              <h3 className="font-bold text-gray-900">
+                Bank Account Details
+              </h3>
+
+            </div>
+
+
+            <div className="p-5">
+
+              <dl className="divide-y divide-gray-100">
+
+                <div className="py-3 first:pt-0 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    Beneficiary Name
+                  </dt>
+
+                  <dd className="text-sm font-semibold text-gray-900 sm:text-right">
+                    CONFAB 360 DEGREE
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    Bank Name
+                  </dt>
+
+                  <dd className="text-sm text-gray-900 sm:text-right">
+                    ICICI BANK, Mayapuri, Delhi, India
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    Account Number
+                  </dt>
+
+                  <dd className="text-sm font-semibold text-gray-900 sm:text-right break-all">
+                    925010035781364
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    Account Type
+                  </dt>
+
+                  <dd className="text-sm text-gray-900 sm:text-right">
+                    Current Account
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    Branch
+                  </dt>
+
+                  <dd className="text-sm text-gray-900 sm:text-right">
+                    Mayapuri, Delhi, India
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    IFSC Code
+                  </dt>
+
+                  <dd className="text-sm font-semibold text-gray-900 sm:text-right">
+                    ICIC0001818
+                  </dd>
+
+                </div>
+
+
+                <div className="py-3 last:pb-0 flex flex-col sm:flex-row sm:justify-between gap-1">
+
+                  <dt className="text-sm font-semibold text-gray-500">
+                    SWIFT Code
+                    <span className="block text-xs font-normal text-gray-400">
+                      International Payments
+                    </span>
+                  </dt>
+
+                  <dd className="text-sm font-semibold text-gray-900 sm:text-right">
+                    ICICINBBCTS
+                  </dd>
+
+                </div>
+
+              </dl>
+
+            </div>
+
+          </div>
+
+
+          {/* =================================================
+              ONLINE PAYMENT
+          ================================================= */}
+
+          <div
+            className="
+              rounded-2xl
+              border
+              border-blue-200
+              bg-gradient-to-br
+              from-blue-50
+              to-white
+              p-6
+              flex
+              flex-col
+              items-center
+              justify-center
+              text-center
+            "
+          >
+
+            <span
+              className="
+                inline-flex
+                items-center
+                rounded-full
+                bg-blue-100
+                px-4
+                py-1.5
+                text-xs
+                font-bold
+                text-blue-700
+                mb-4
+              "
+            >
+              ONLINE PAYMENT
+            </span>
+
+
+            <h3 className="text-xl font-bold text-gray-900">
+              Scan or Click to Pay
+            </h3>
+
+
+            <p className="mt-2 text-sm text-gray-600">
+              Use the QR code below to proceed with payment.
+            </p>
+
+
+            <a
+              href="https://razorpay.me/@confab360degree1628"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Confab 360 Degree online payment page"
+              className="
+                mt-5
+                rounded-2xl
+                focus:outline-none
+                focus:ring-2
+                focus:ring-blue-500
+                focus:ring-offset-2
+              "
+            >
+
+              <div
+                className="
+                  w-48
+                  h-48
+                  sm:w-52
+                  sm:h-52
+                  bg-white
+                  border
+                  border-gray-200
+                  rounded-2xl
+                  p-2
+                  flex
+                  items-center
+                  justify-center
+                  shadow-sm
+                  hover:shadow-xl
+                  transition-shadow
+                "
+              >
+
+                <img
+                  src="/assets/images/payment/payment.svg"
+                  alt="Payment QR Code"
+                  className="w-full h-full object-contain"
+                />
+
+              </div>
+
+            </a>
+
+
+            <p className="mt-4 text-xs text-gray-500">
+              Click the QR code to open the payment page
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </PageShell>
+  ),
+},
   {
     key: "13",
     label: "Contact Detail",
