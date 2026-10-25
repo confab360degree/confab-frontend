@@ -22,10 +22,10 @@ const upcomingEventsList = [
     //   image: "/assets/images/upcomingEvent/ICATS.jpg",
     //   title: ""
     // },
-    {
-      image: "/assets/images/upcomingEvent/CIECI2026.jpg",
-      title: ""
-    },
+    // {
+    //   image: "/assets/images/upcomingEvent/CIECI2026.jpg",
+    //   title: ""
+    // },
   
   // {
   //     image: "/assets/images/upcomingEvent/AIVHI3.jpg",

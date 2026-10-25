@@ -49,7 +49,7 @@ export const eventLinks = [
   //{ key: '5', href:'/dubaiConference-2025' , label: 'Mega Dubai Conference-2025' },
   // { key: '6', href:'/assets/file/event_files/RW3.pdf', label: 'AICTE Training Program-2026' },
   // { key: '7', href:'/ICATS ', label: 'ICATS 2026'},
-  { key: '8', href:'/CECI' , label: 'CIECI & ICFBE 2026'},
-  { key: '9', href:'/assets/file/event_files/GIPHanoi.pdf' , label: 'GIP 2026'},
+  // { key: '8', href:'/CECI' , label: 'CIECI & ICFBE 2026'},
+  // { key: '9', href:'/assets/file/event_files/GIPHanoi.pdf' , label: 'GIP 2026'},
   { key: '10', href:'/ICETS' , label: 'ICETS 2027'},
 ];

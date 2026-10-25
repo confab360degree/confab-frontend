@@ -51,44 +51,44 @@ export const UpcomingEventList = [
   // },
 
 
-  {
-     id: 2,
-     title:'GLOBAL IMMERSION PROGRAMME',
-    event:[
-      {
-          key:1,
-          title:'Organised by Confab 360 Degree and The University of Economics and Business, Vietnam National University, Hanoi',
-          para:'',
-          date:'19-25 October 2026',
-          link:'/assets/file/event_files/GIPHanoi.pdf'
-      }
-    ],
-     info:'',
-    images: [
-      "/assets/images/upcomingEvent/GEP.jpg",
+  // {
+  //    id: 2,
+  //    title:'GLOBAL IMMERSION PROGRAMME',
+  //   event:[
+  //     {
+  //         key:1,
+  //         title:'Organised by Confab 360 Degree and The University of Economics and Business, Vietnam National University, Hanoi',
+  //         para:'',
+  //         date:'19-25 October 2026',
+  //         link:'/assets/file/event_files/GIPHanoi.pdf'
+  //     }
+  //   ],
+  //    info:'',
+  //   images: [
+  //     "/assets/images/upcomingEvent/GEP.jpg",
           
-    ],
-    pointList:[]
-  },
-    {
-     id: 3,
-     title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
-    event:[
-      {
-          key:1,
-          title:'(CIECI & ICFBE 2026)',
-          para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
-          date:'22-23 October 2026',
-          link:'https://www.confab360degree.com/CECI'
-      }
-    ],
-    info:'',
-    images: [
-      "/assets/images/upcomingEvent/CIECI.jpg",
+  //   ],
+  //   pointList:[]
+  // },
+  //   {
+  //    id: 3,
+  //    title:'The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026) ',
+  //   event:[
+  //     {
+  //         key:1,
+  //         title:'(CIECI & ICFBE 2026)',
+  //         para:'Reshaping Integration and Enterprise Resilience:Artificial Intelligence, Supply Chains, Trade and Family Business Governance',
+  //         date:'22-23 October 2026',
+  //         link:'https://www.confab360degree.com/CECI'
+  //     }
+  //   ],
+  //   info:'',
+  //   images: [
+  //     "/assets/images/upcomingEvent/CIECI.jpg",
             
-    ],
-    pointList:[]
-  },
+  //   ],
+  //   pointList:[]
+  // },
   {
      id: 4,
      title:'International Conference on Emerging Technologies for Sustainability - 2027',
@@ -98,7 +98,7 @@ export const UpcomingEventList = [
           title:'Emerging Technologies for Sustainable Business Development, Innovation, Environmental Protection, Engineering Education & the SDGs',
           para:'',
           date:'29th – 30th January, 2027 | Hybrid Mode',
-          link:''
+          link:'/assets/file/event_files/ICETS-2027.pdf'
       }
     ],
     info:'',
