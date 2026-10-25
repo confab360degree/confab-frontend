@@ -18,7 +18,7 @@ const UpcomingEvent = () => {
         <div className='flex flex-col justify-center items-center gap-5'>
             <h1 className='text-lg text-center font-[700]'>CONFAB 360 DEGREE ANNOUNCES THE</h1>
         <div >
-              <Link href={'/assets/file/event_files/GIPHanoi.pdf'} download="GIPHanoi.pdf" className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Upcoming Events</h1></Link>
+              <Link href={'/assets/file/event_files/ICETS-2027.pdf'} download="ICETS-2027.pdf" className='flex w-fit px-[40px] py-[10px] border-2 border-[#4970b3] text-white bg-transparent'><h1 className='text-md text-[#4970b3]'>Upcoming Events</h1></Link>
 
             </div>
         </div>
