@@ -236,6 +236,9 @@ export const tabItems = [
             <h2 className="mx-auto max-w-4xl text-center text-xs font-normal leading-tight tracking-tight text-slate-600 sm:text-sm md:text-base">
   “Emerging Technologies for Sustainable Business Development, Innovation, Environmental Protection, Engineering Education & the SDGs”
 </h2>
+<h2 className="mx-auto max-w-4xl text-center text-xs font-bold leading-tight tracking-tight text-slate-600 sm:text-sm md:text-base">
+  29th January (Friday) – 30th January (Saturday), 2027 | Hybrid Mode
+</h2>
             <div className="mx-auto w-full max-w-4xl overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm">
               <img
                 src="/assets/images/ICETS/indiracollege.webp"
