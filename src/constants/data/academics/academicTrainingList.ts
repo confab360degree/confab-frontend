@@ -1,5 +1,20 @@
 export const academicTrainingList = [
-        
+      
+    {
+        key:14,
+        title:'Campus to Corproate Training (For Post-Graduate students) at Manipal Academy of Higher Education, Manipal-2026',
+        eventList:[
+        ],
+        eventImages:[
+            { key: 1, name: '', image: '/assets/images/gallery/MA1.jpeg' },
+            { key: 2, name: '', image: '/assets/images/gallery/MA2.jpeg' },
+            { key: 3, name: '', image: '/assets/images/gallery/MA3.jpeg' },
+            { key: 4, name: '', image: '/assets/images/gallery/MA4.jpeg' },
+            { key: 5, name: '', image: '/assets/images/gallery/MA5.jpeg' },
+            { key: 6, name: '', image: '/assets/images/gallery/MA6.jpeg' },
+         
+        ]
+    },
         {
         key:13,
         title:'Research Writing and Case Development Training Program (AICTE and MEPSC approved training program)',
@@ -28,7 +43,7 @@ export const academicTrainingList = [
     
     {
         key:1,
-        title:'Campus to Corproate Training (for post-graduate students) at Manipal Academy of Higher Education, Manipal',
+        title:'Campus to Corproate Training (for post-graduate students) at Manipal Academy of Higher Education, Manipal-2024',
         eventList:[
             {
                 key:1,
