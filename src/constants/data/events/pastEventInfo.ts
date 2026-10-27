@@ -1,5 +1,24 @@
 export const pastEventList = [
   {
+  key: 41,
+  title:
+    "The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026)",
+  images: [
+    "/assets/images/pastEvent/CIECI/CIECI1.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI2.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI3.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI4.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI5.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI6.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI7.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI8.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI9.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI10.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI11.jpg",
+    "/assets/images/pastEvent/CIECI/CIECI12.jpg",
+  ],
+},
+  {
     key: 40,
     title:
       "AI, Technology, Marketing & Quality: International Symposium on Shaping the Future of Higher Education and Research, Raj Kumar Goel Institute of Technology, Ghaziabad, India",

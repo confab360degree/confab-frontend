@@ -1,5 +1,70 @@
 export const HomeEventList = [
  {
+  title: "The 2026 Joint International Conference on ECONOMIC INTEGRATION AND ENTERPRISE RESILIENCE (CIECI & ICFBE 2026)",
+  events: [
+    {
+      id: 1,
+      image: "/assets/images/pastEvent/CIECI/CIECI1.jpg",
+      title: ""
+    },
+    {
+      id: 2,
+      image: "/assets/images/pastEvent/CIECI/CIECI2.jpg",
+      title: ""
+    },
+    {
+      id: 3,
+      image: "/assets/images/pastEvent/CIECI/CIECI3.jpg",
+      title: ""
+    },
+    {
+      id: 4,
+      image: "/assets/images/pastEvent/CIECI/CIECI4.jpg",
+      title: ""
+    },
+    {
+      id: 5,
+      image: "/assets/images/pastEvent/CIECI/CIECI5.jpg",
+      title: ""
+    },
+    {
+      id: 6,
+      image: "/assets/images/pastEvent/CIECI/CIECI6.jpg",
+      title: ""
+    },
+    {
+      id: 7,
+      image: "/assets/images/pastEvent/CIECI/CIECI7.jpg",
+      title: ""
+    },
+    {
+      id: 8,
+      image: "/assets/images/pastEvent/CIECI/CIECI8.jpg",
+      title: ""
+    },
+    {
+      id: 9,
+      image: "/assets/images/pastEvent/CIECI/CIECI9.jpg",
+      title: ""
+    },
+    {
+      id: 10,
+      image: "/assets/images/pastEvent/CIECI/CIECI10.jpg",
+      title: ""
+    },
+    {
+      id: 11,
+      image: "/assets/images/pastEvent/CIECI/CIECI11.jpg",
+      title: ""
+    },
+    {
+      id: 12,
+      image: "/assets/images/pastEvent/CIECI/CIECI12.jpg",
+      title: ""
+    }
+  ]
+},
+  {
   title: "International Conference on Artificial Intelligence, Trade and Sustainability - 2026 (ICATS 2026), BML Munjal University, Gurugram",
   events: [
     {

@@ -342,160 +342,77 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
 
 
       {/* =====================================================
-          CONFERENCE CHAIR
-      ===================================================== */}
+    CONFERENCE CHAIR
+===================================================== */}
 
-      <section>
+<section>
+  <div className="mb-6 flex items-center gap-3">
+    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-blue-50">
+      <span className="text-xl">★</span>
+    </div>
 
-        <div className="flex items-center gap-3 mb-6">
+    <h2 className="text-xl font-bold text-gray-900 md:text-2xl">
+      Conference Chair
+    </h2>
+  </div>
 
-          <div
-            className="
-              w-11
-              h-11
-              rounded-xl
-              bg-blue-50
-              flex
-              items-center
-              justify-center
-              flex-shrink-0
-            "
-          >
-            <span className="text-xl">★</span>
+  <div className="grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {[
+      {
+        name: "Dr. Michael Auer",
+        detail: "CTI, Germany",
+        image: "/assets/images/ICETS/michael.jpg",
+      },
+      {
+        name: "Dr. Anuj Kumar",
+        detail: "Rushford Business School, Switzerland",
+        image: "/assets/images/ICETS/anuj.webp",
+      },
+      {
+        name: "Dr. Fernando Ortiz-Rodríguez",
+        detail: "Universidad Autonoma de Tamaulipas, Mexico",
+        image: "/assets/images/ICETS/Fernando.webp",
+      },
+      {
+        name: "Dr. Deepali Chaudhari",
+        detail: "Indira University, Pune",
+        image: "/assets/images/ICETS/deepali.jpg",
+      },
+    ].map((item, index) => (
+      <article
+        key={index}
+        className="relative w-full max-w-[300px] overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+      >
+        <div className="h-1.5 w-full bg-gradient-to-r from-blue-500 to-indigo-500" />
+
+        <div className="p-5">
+          {/* Individual Image */}
+          <div className="flex justify-center">
+            <div className="h-36 w-36 overflow-hidden rounded-full border-4 border-white bg-gray-100 shadow-md md:h-40 md:w-40">
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-            Conference Chair
-          </h2>
+          {/* Name and Details */}
+          <div className="mt-5 text-center">
+            <h3 className="mt-3 text-lg font-bold leading-snug text-gray-900">
+              {item.name}
+            </h3>
 
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">
+              {item.detail}
+            </p>
+          </div>
         </div>
-
-
-        <div
-          className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-5
-            justify-items-center
-          "
-        >
-
-          {[
-            {
-              name: "Dr. Michael Auer",
-              detail: "CTI, Germany",
-            },
-            {
-              name: "Dr. Anuj Kumar",
-              detail: "Rushford Business School, Switzerland",
-            },
-            {
-              name: "Dr. Fernando Ortiz-Rodríguez",
-              detail: "Universidad Autonoma de Tamaulipas, Mexico",
-            },
-            {
-              name: "Dr. Deepali Chaudhari",
-              detail: "Indira University, Pune",
-            },
-          ].map((item, index) => (
-
-            <article
-              key={index}
-              className="
-                relative
-                w-full
-                max-w-[300px]
-                overflow-hidden
-                rounded-2xl
-                border
-                border-gray-200
-                bg-white
-                shadow-sm
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-xl
-              "
-            >
-
-              <div
-                className="
-                  h-1.5
-                  w-full
-                  bg-gradient-to-r
-                  from-blue-500
-                  to-indigo-500
-                "
-              />
-
-              <div className="p-5">
-
-                {/* PHOTO SPACE - DISABLED FOR NOW */}
-                <div className="flex justify-center">
-
-                  <div
-                    className="
-                      w-36
-                      h-36
-                      md:w-40
-                      md:h-40
-                      rounded-full
-                      overflow-hidden
-                      bg-gray-100
-                      border-4
-                      border-white
-                      shadow-md
-                      flex
-                      items-center
-                      justify-center
-                    "
-                  >
-                    {/* Photo intentionally disabled.
-                        Add image here later. */}
-                  </div>
-
-                </div>
-
-
-                <div className="mt-5 text-center">
-
-                  <h3
-                    className="
-                      mt-3
-                      text-lg
-                      font-bold
-                      text-gray-900
-                      leading-snug
-                    "
-                  >
-                    {item.name}
-                  </h3>
-
-                  <p
-                    className="
-                      mt-2
-                      text-sm
-                      text-gray-600
-                      leading-relaxed
-                    "
-                  >
-                    {item.detail}
-                  </p>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          ))}
-
-        </div>
-
-      </section>
+      </article>
+    ))}
+  </div>
+</section>
 
 
       {/* =====================================================
@@ -1153,17 +1070,17 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
                 "Assistant Professor, School of Information Technology, Indira University",
             },
             {
-              name: "Mrs. Jyoti Shrote",
+              name: "Dr. Jyoti Shrote",
               detail:
                 "Assistant Professor, School of Information Technology, Indira University",
             },
             {
-              name: "Ms. Bhakti Shinde",
+              name: "Dr. Bhakti Shinde",
               detail:
                 "Assistant Professor, School of Information Technology, Indira University",
             },
             {
-              name: "Mrs. Varsha Ikhe",
+              name: "Dr. Varsha Ikhe",
               detail:
                 "Assistant Professor, School of Information Technology, Indira University",
             },
