@@ -658,65 +658,35 @@ export const ProgramCommitteeList = [
 
 export const publicationsList = [
     
-  {
-    key: 1,
-    image: '/assets/images/ICATS/scopusLogo-600.png',
-    title: 'Springer Proceedings Title (Scopus Indexed)',
-    para: 'Reshaping Integration in the Fragmented World: Artificial Intelligence, Supply Chain and New Trade Governance (Align your paper with the above title.)'
-  },
-  {
-    key: 2,
-    image: '/assets/images/ICATS/springer.jpg',
-    title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
-    para: 'Springer, Scopus'
-  },
-  {
-    key: 3,
-    image: '/assets/images/ICATS/15179.jpg',
-    title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
-    para: 'Springer, Scopus'
-  },
+  // {
+  //   key: 1,
+  //   image: '/assets/images/ICATS/scopusLogo-600.png',
+  //   title: 'Springer Proceedings Title (Scopus Indexed)',
+  //   para: 'Reshaping Integration in the Fragmented World: Artificial Intelligence, Supply Chain and New Trade Governance (Align your paper with the above title.)'
+  // },
+  // {
+  //   key: 2,
+  //   image: '/assets/images/ICATS/springer.jpg',
+  //   title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
+  //   para: 'Springer, Scopus'
+  // },
+  // {
+  //   key: 3,
+  //   image: '/assets/images/ICATS/15179.jpg',
+  //   title: 'Conference Proceedings-Lecture Notes in Networks and Systems',
+  //   para: 'Springer, Scopus'
+  // },
   {
     key: 4,
-    image: '/assets/images/ICATS/sustainability-logo.png',
-    title: 'Sustainability – MDPI',
-    para: 'Scopus & SSCI Indexed'
+    image: '/assets/images/ICETS/copal.png',
+    title: '',
+    para: 'Copal Publishing'
   },
   {
     key: 5,
-    image: '/assets/images/ICATS/images1.jpg',
-    title: 'Innovation and Emerging Technologies Journal',
+    image: '/assets/images/ICETS/Scopus.png',
+    title: '',
     para: 'Scopus Indexed'
-  },
-  {
-    key: 6,
-    image: '/assets/images/ICATS/images2.webp',
-    title: 'International Journal of Innovative Technology and Interdisciplinary Sciences',
-    para: 'Scopus Indexed'
-  },
-  {
-    key: 7,
-    image: '/assets/images/ICATS/images3.jpg',
-    title: 'Journal of International Students',
-    para: 'Scopus & Web of Science Indexed'
-  },
-  {
-    key: 8,
-    image: '/assets/images/ICATS/International-Journal-of-Engineering-Pedagogy-1.png',
-    title: 'International Journal of Engineering Pedagogy',
-    para: 'Scopus Indexed'
-  },
-  {
-    key: 9,
-    image: '/assets/images/ICATS/Journal-of-Information-and-Optimization-Sciences-1.png',
-    title: 'Journal of Information and Optimization Sciences',
-    para: 'Web of Science & ABDC Indexed'
-  },
-  {
-    key: 10,
-    image: '/assets/images/ICATS/Journal-of-Statistics-and-Management-Systems-1.png',
-    title: 'Journal of Statistics and Management Systems',
-    para: 'ABDC Indexed'
   },
   {
     key: 11,
@@ -724,4 +694,35 @@ export const publicationsList = [
     title: 'Edited Books',
     para: 'Scopus Indexed'
   },
+  {
+    key: 6,
+    image: '/assets/images/ICETS/JIS.jpg',
+    title: 'Journal of International Students',
+    para: 'Scopus & Web of Science Indexed'
+  },
+  {
+    key: 7,
+    image: '/assets/images/ICETS/wjstd.jpg',
+    title: 'World Journal of Science, Technology and Sustainable Development',
+    para: 'Scopus & Web of Science Indexed'
+  },
+  {
+      key: 2,
+    image: '/assets/images/ITNSSEM/images.png',
+    title: 'International Journal of Interactive Mobile Technologies',
+    para: 'Scopus Indexed'
+  },
+  {
+    key: 9,
+    image: '/assets/images/ICETS/mdpi.jpg',
+    title: 'Sustainability – MDPI journal',
+    para: ''
+  },
+  {
+    key: 10,
+    image: '/assets/images/ICATS/Journal-of-Statistics-and-Management-Systems-1.png',
+    title: 'Journal of Statistics and Management Systems',
+    para: 'ABDC Indexed'
+  },
+  ,
 ]
