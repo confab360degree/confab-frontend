@@ -420,156 +420,82 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
       ===================================================== */}
 
       <section className="mt-12">
+  {/* Section Heading */}
+  <div className="mb-6 flex items-center gap-3">
+    <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-blue-50">
+      <span className="text-xl text-blue-600">★</span>
+    </div>
 
-        <div className="flex items-center gap-3 mb-6">
+    <h2 className="text-xl font-bold text-gray-900 md:text-2xl">
+      Chief Patron(s)
+    </h2>
+  </div>
 
-          <div
-            className="
-              w-11
-              h-11
-              rounded-xl
-              bg-blue-50
-              flex
-              items-center
-              justify-center
-              flex-shrink-0
-            "
-          >
-            <span className="text-xl">★</span>
+  {/* Chief Patron Cards */}
+  <div className="grid grid-cols-1 justify-items-center gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    {[
+      {
+        name: "Dr. Tarita Shankar",
+        detail:
+          "President-Indira University, Chairperson & Chief Mentor-IGI",
+        image: "/assets/images/ICETS/tarita.webp",
+      },
+      {
+        name: "Dr. Tufail Syed",
+        detail:
+          "President and Founder, Rushford Business School, Switzerland",
+        image: "/assets/images/ICETS/Tufail-Syed.jpg",
+      },
+      {
+        name: "Dr. Khang Wen Goh",
+        detail:
+          "Pro Vice Chancellor, INTI International University, Malaysia",
+        image: "/assets/images/ICETS/khang.webp",
+      },
+      {
+        name: "Dr. Nishu Ayedee",
+        detail: "Founder and CEO, Confab 360 Degree",
+        image: '/assets/images/ICETS/nishu.jpg',
+      },
+    ].map((item) => (
+      <article
+        key={item.name}
+        className="group relative flex h-full w-full max-w-[300px] flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl"
+      >
+        {/* Top Accent */}
+        <div className="h-1.5 w-full bg-gradient-to-r from-blue-500 to-indigo-500" />
+
+        <div className="flex flex-1 flex-col p-5">
+          {/* Patron Image */}
+          <div className="flex justify-center">
+            <div className="h-36 w-36 overflow-hidden rounded-full border-4 border-white bg-gray-100 shadow-md ring-2 ring-blue-100 transition-all duration-300 group-hover:ring-blue-300 md:h-40 md:w-40">
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
           </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-            Chief Patron(s)
-          </h2>
+          {/* Patron Details */}
+          <div className="mt-5 flex flex-1 flex-col text-center">
+            <h3 className="mt-3 text-lg font-bold leading-snug text-gray-900 transition-colors duration-300 group-hover:text-blue-700">
+              {item.name}
+            </h3>
 
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">
+              {item.detail}
+            </p>
+          </div>
         </div>
 
-
-        <div
-          className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-5
-            justify-items-center
-          "
-        >
-
-          {[
-            {
-              name: "Dr. Tarita Shankar",
-              detail:
-                "President-Indira University, Chairperson & Chief Mentor-IGI",
-            },
-            {
-              name: "Dr. Tufail Syed",
-              detail:
-                "President and Founder, Rushford Business School, Switzerland",
-            },
-            {
-              name: "Dr. Khang Wen Goh",
-              detail:
-                "Pro Vice Chancellor, INTI International University, Malaysia",
-            },
-            {
-              name: "Dr. Nishu Ayedee",
-              detail:
-                "Founder and CEO, Confab 360 Degree",
-            },
-          ].map((item, index) => (
-
-            <article
-              key={index}
-              className="
-                relative
-                w-full
-                max-w-[300px]
-                overflow-hidden
-                rounded-2xl
-                border
-                border-gray-200
-                bg-white
-                shadow-sm
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-xl
-              "
-            >
-
-              <div
-                className="
-                  h-1.5
-                  w-full
-                  bg-gradient-to-r
-                  from-blue-500
-                  to-indigo-500
-                "
-              />
-
-              <div className="p-5">
-
-                {/* PHOTO SPACE - DISABLED FOR NOW */}
-                <div className="flex justify-center">
-
-                  <div
-                    className="
-                      w-36
-                      h-36
-                      md:w-40
-                      md:h-40
-                      rounded-full
-                      overflow-hidden
-                      bg-gray-100
-                      border-4
-                      border-white
-                      shadow-md
-                    "
-                  >
-                    {/* Photo intentionally disabled */}
-                  </div>
-
-                </div>
-
-
-                <div className="mt-5 text-center">
-
-                  <h3
-                    className="
-                      mt-3
-                      text-lg
-                      font-bold
-                      text-gray-900
-                      leading-snug
-                    "
-                  >
-                    {item.name}
-                  </h3>
-
-                  <p
-                    className="
-                      mt-2
-                      text-sm
-                      text-gray-600
-                      leading-relaxed
-                    "
-                  >
-                    {item.detail}
-                  </p>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          ))}
-
-        </div>
-
-      </section>
+        {/* Bottom Hover Accent */}
+        <div className="h-1 w-0 bg-gradient-to-r from-blue-500 to-indigo-500 transition-all duration-300 group-hover:w-full" />
+      </article>
+    ))}
+  </div>
+</section>
 
 
       {/* =====================================================

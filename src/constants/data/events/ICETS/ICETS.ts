@@ -708,21 +708,62 @@ export const publicationsList = [
   },
   {
       key: 2,
-    image: '/assets/images/ITNSSEM/images.png',
+    image: '/assets/images/ICATS/images.png',
     title: 'International Journal of Interactive Mobile Technologies',
     para: 'Scopus Indexed'
   },
   {
     key: 9,
-    image: '/assets/images/ICETS/mdpi.jpg',
-    title: 'Sustainability – MDPI journal',
+    image: '/assets/images/ICETS/jeet.png',
+    title: 'Journal of Engineering Education Transformation',
     para: ''
   },
   {
     key: 10,
-    image: '/assets/images/ICATS/Journal-of-Statistics-and-Management-Systems-1.png',
-    title: 'Journal of Statistics and Management Systems',
-    para: 'ABDC Indexed'
+    image: '/assets/images/ICETS/pj.png',
+    title: 'Prabandhan: Indian Journal of Management',
+    para: ''
   },
-  ,
+  {
+  key: 11,
+  image: '/assets/images/ICETS/ijm.png',
+  title: 'Indian Journal of Marketing',
+  para: ''
+},
+{
+  key: 12,
+  image: '/assets/images/ICETS/iet.png',
+  title: 'Innovation and Emerging Technologies Journal',
+  para: ''
+},
+{
+  key: 13,
+  image: '/assets/images/ICETS/jios.png',
+  title: 'Journal of Information and Optimisation Sciences',
+  para: ''
+},
+{
+  key: 14,
+  image: '/assets/images/ICETS/wje.png',
+  title: 'World Journal of Entrepreneurship, Management and Sustainable Development',
+  para: ''
+},
+{
+  key: 15,
+  image: '/assets/images/ICETS/ams.png',
+  title: 'Academy of Marketing Studies Journal',
+  para: ''
+},
+{
+  key: 16,
+  image: '/assets/images/ICETS/ijep.png',
+  title: 'Indian Journal of Environmental Protection',
+  para: ''
+},
+{
+  key: 17,
+  image: '/assets/images/ICETS/ds.png',
+  title: 'Discover Sustainability',
+  para: ''
+},
 ]
