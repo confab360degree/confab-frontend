@@ -44,7 +44,7 @@ const partnerLogos = [
   {
     src: "/assets/images/ICETS/indira.jpg",
     alt: "Indira University, Pune logo",
-    name: "Indira University, Pune",
+    name: "Indira University",
     location: "Pune",
     className: "h-20 sm:h-24 md:h-28",
   },
@@ -438,7 +438,7 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
         name: "Dr. Tarita Shankar",
         detail:
           "President-Indira University, Chairperson & Chief Mentor-IGI",
-        image: "/assets/images/ICETS/tarita.webp",
+        image: "/assets/images/ICETS/tarita.jpg",
       },
       {
         name: "Dr. Tufail Syed",
@@ -450,7 +450,7 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
         name: "Dr. Khang Wen Goh",
         detail:
           "Pro Vice Chancellor, INTI International University, Malaysia",
-        image: "/assets/images/ICETS/khang.webp",
+        image: "/assets/images/ICETS/khang.jpg",
       },
       {
         name: "Dr. Nishu Ayedee",
@@ -498,448 +498,375 @@ Rushford Business School (RBS), Switzerland, is an internationally focused busin
 </section>
 
 
-      {/* =====================================================
-          PATRONS
-      ===================================================== */}
+     {/* =====================================================
+    PATRONS
+===================================================== */}
 
-      <section className="mt-12">
+<section className="mt-12">
 
-        <div className="flex items-center gap-3 mb-6">
+  {/* Section Heading */}
+  <div className="flex items-center gap-3 mb-6">
 
-          <div
-            className="
-              w-11
-              h-11
-              rounded-xl
-              bg-purple-50
-              flex
-              items-center
-              justify-center
-              flex-shrink-0
-            "
-          >
-            <span className="text-xl">★</span>
-          </div>
+    <div
+      className="
+        w-11
+        h-11
+        rounded-xl
+        bg-purple-50
+        flex
+        items-center
+        justify-center
+        flex-shrink-0
+      "
+    >
+      <span className="text-xl text-purple-600">★</span>
+    </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-            Patron(s)
-          </h2>
+    <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+      Patron(s)
+    </h2>
 
-        </div>
+  </div>
 
+  {/* Patron Cards */}
+  <div
+    className="
+      grid
+      grid-cols-1
+      sm:grid-cols-2
+      lg:grid-cols-3
+      xl:grid-cols-4
+      gap-5
+      justify-items-center
+    "
+  >
 
+    {[
+      {
+        name: "Dr. Anagha Joshi",
+        detail: "Vice Chancellor-Indira University",
+        image: "/assets/images/ICETS/anagha.jpg",
+      },
+      {
+        name: "Dr. Punam Bhoyar",
+        detail: "Pro Vice Chancellor, Indira University",
+        image: "/assets/images/ICETS/punam.jpg",
+      },
+      {
+        name: "Dr. Janardan Pawar",
+        detail:
+          "Pro Vice Chancellor (Administration), Indira University & Dean - School of Information Technology, Indira University",
+        image: "/assets/images/ICETS/janardan.jpg",
+      },
+    ].map((item, index) => (
+
+      <article
+        key={index}
+        className="
+          group
+          relative
+          flex
+          h-full
+          w-full
+          max-w-[300px]
+          flex-col
+          overflow-hidden
+          rounded-2xl
+          border
+          border-gray-200
+          bg-white
+          shadow-sm
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:border-purple-200
+          hover:shadow-xl
+        "
+      >
+
+        {/* Top Gradient */}
         <div
           className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-5
-            justify-items-center
+            h-1.5
+            w-full
+            bg-gradient-to-r
+            from-purple-500
+            to-indigo-500
           "
-        >
+        />
 
-          {[
-            {
-              name: "Dr. Anagha Joshi",
-              detail: "Vice Chancellor-Indira University",
-            },
-            // {
-            //   name: "Dr. Nishu Ayedee",
-            //   detail: "Founder and CEO, Confab 360 Degree",
-            // },
-            {
-              name: "Dr. Punam Bhoyar",
-              detail: "Pro Vice Chancellor, Indira University",
-            },
-            {
-              name: "Dr. Janardan Pawar",
-              detail:
-                "Pro Vice Chancellor (Administration), Indira University & Dean - School of Information Technology, Indira University",
-            },
-          ].map((item, index) => (
+        <div className="flex flex-1 flex-col p-5">
 
-            <article
-              key={index}
+          {/* Individual Patron Image */}
+          <div className="flex justify-center">
+
+            <div
               className="
-                relative
-                w-full
-                max-w-[300px]
+                w-36
+                h-36
+                md:w-40
+                md:h-40
+                rounded-full
                 overflow-hidden
-                rounded-2xl
-                border
-                border-gray-200
-                bg-white
-                shadow-sm
+                bg-gray-100
+                border-4
+                border-white
+                shadow-md
+                ring-2
+                ring-purple-100
                 transition-all
                 duration-300
-                hover:-translate-y-1
-                hover:shadow-xl
+                group-hover:ring-purple-300
               "
             >
-
-              <div
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
                 className="
-                  h-1.5
+                  h-full
                   w-full
-                  bg-gradient-to-r
-                  from-purple-500
-                  to-indigo-500
+                  object-cover
+                  object-top
+                  transition-transform
+                  duration-500
+                  group-hover:scale-105
                 "
               />
+            </div>
 
-              <div className="p-5">
-
-                {/* PHOTO SPACE - DISABLED FOR NOW */}
-                <div className="flex justify-center">
-
-                  <div
-                    className="
-                      w-36
-                      h-36
-                      md:w-40
-                      md:h-40
-                      rounded-full
-                      overflow-hidden
-                      bg-gray-100
-                      border-4
-                      border-white
-                      shadow-md
-                    "
-                  >
-                    {/* Photo intentionally disabled */}
-                  </div>
-
-                </div>
-
-
-                <div className="mt-5 text-center">
-
-                  <h3
-                    className="
-                      mt-3
-                      text-lg
-                      font-bold
-                      text-gray-900
-                      leading-snug
-                    "
-                  >
-                    {item.name}
-                  </h3>
-
-                  <p
-                    className="
-                      mt-2
-                      text-sm
-                      text-gray-600
-                      leading-relaxed
-                    "
-                  >
-                    {item.detail}
-                  </p>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          ))}
-
-        </div>
-
-      </section>
-
-
-      {/* =====================================================
-          CONVENER
-      ===================================================== */}
-
-      <section className="mt-12">
-
-        <div className="flex items-center gap-3 mb-6">
-
-          <div
-            className="
-              w-11
-              h-11
-              rounded-xl
-              bg-green-50
-              flex
-              items-center
-              justify-center
-              flex-shrink-0
-            "
-          >
-            <span className="text-xl">✓</span>
           </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-            Convener
-          </h2>
+          {/* Name and Details */}
+          <div className="mt-5 flex flex-1 flex-col text-center">
 
-        </div>
-
-
-        <div
-          className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-5
-            justify-items-center
-          "
-        >
-
-          {[
-            {
-              name: "Dr. Divya Chitre",
-              detail: "Indira University, Pune",
-            },
-            {
-              name: "Dr. Jyoti Jadhav",
-              detail: "Indira University, Pune",
-            },
-          ].map((item, index) => (
-
-            <article
-              key={index}
+            <h3
               className="
-                relative
-                w-full
-                max-w-[300px]
-                overflow-hidden
-                rounded-2xl
-                border
-                border-gray-200
-                bg-white
-                shadow-sm
-                transition-all
+                mt-3
+                text-lg
+                font-bold
+                text-gray-900
+                leading-snug
+                transition-colors
                 duration-300
-                hover:-translate-y-1
-                hover:shadow-xl
+                group-hover:text-purple-700
               "
             >
+              {item.name}
+            </h3>
 
-              <div
-                className="
-                  h-1.5
-                  w-full
-                  bg-gradient-to-r
-                  from-green-500
-                  to-emerald-500
-                "
-              />
+            <p
+              className="
+                mt-2
+                text-sm
+                text-gray-600
+                leading-relaxed
+              "
+            >
+              {item.detail}
+            </p>
 
-              <div className="p-5">
-
-                {/* PHOTO SPACE - DISABLED FOR NOW */}
-                <div className="flex justify-center">
-
-                  <div
-                    className="
-                      w-36
-                      h-36
-                      md:w-40
-                      md:h-40
-                      rounded-full
-                      overflow-hidden
-                      bg-gray-100
-                      border-4
-                      border-white
-                      shadow-md
-                    "
-                  >
-                    {/* Photo intentionally disabled */}
-                  </div>
-
-                </div>
-
-
-                <div className="mt-5 text-center">
-
-                  <h3
-                    className="
-                      mt-3
-                      text-lg
-                      font-bold
-                      text-gray-900
-                      leading-snug
-                    "
-                  >
-                    {item.name}
-                  </h3>
-
-                  <p
-                    className="
-                      mt-2
-                      text-sm
-                      text-gray-600
-                      leading-relaxed
-                    "
-                  >
-                    {item.detail}
-                  </p>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          ))}
+          </div>
 
         </div>
 
-      </section>
+        {/* Bottom Hover Accent */}
+        <div
+          className="
+            h-1
+            w-0
+            bg-gradient-to-r
+            from-purple-500
+            to-indigo-500
+            transition-all
+            duration-300
+            group-hover:w-full
+          "
+        />
+
+      </article>
+
+    ))}
+
+  </div>
+
+</section>
 
 
       {/* =====================================================
-          CO-CONVENER
-      ===================================================== */}
+    CONVENER
+===================================================== */}
 
-      <section className="mt-12">
+<section className="mt-12">
 
-        <div className="flex items-center gap-3 mb-6">
+  {/* Section Heading */}
+  <div className="flex items-center gap-3 mb-6">
 
-          <div
-            className="
-              w-11
-              h-11
-              rounded-xl
-              bg-orange-50
-              flex
-              items-center
-              justify-center
-              flex-shrink-0
-            "
-          >
-            <span className="text-xl">✓</span>
-          </div>
+    <div className="w-11 h-11 rounded-xl bg-green-50 flex items-center justify-center flex-shrink-0">
+      <span className="text-xl text-green-600">✓</span>
+    </div>
 
-          <h2 className="text-xl md:text-2xl font-bold text-gray-900">
-            Co-convener
-          </h2>
+    <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+      Convener
+    </h2>
 
-        </div>
+  </div>
 
+  {/* Convener Cards */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 justify-items-center">
 
-        <div
-          className="
-            grid
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3
-            xl:grid-cols-4
-            gap-5
-            justify-items-center
-          "
-        >
+    {[
+      {
+        name: "Dr. Divya Chitre",
+        detail: "Indira University, Pune",
+        image: "/assets/images/ICETS/divya.jpg",
+      },
+      {
+        name: "Dr. Jyoti Jadhav",
+        detail: "Indira University, Pune",
+        image: "/assets/images/ICETS/jyoti.jpg",
+      },
+    ].map((item, index) => (
 
-          {[
-            {
-              name: "Mrs. Shilpa Pawale",
-              detail: "Indira University",
-            },
-            {
-              name: "Mrs. Monali Chaudhari",
-              detail: "Indira University",
-            },
-          ].map((item, index) => (
+      <article
+        key={index}
+        className="group relative flex h-full w-full max-w-[300px] flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-xl"
+      >
 
-            <article
-              key={index}
-              className="
-                relative
-                w-full
-                max-w-[300px]
-                overflow-hidden
-                rounded-2xl
-                border
-                border-gray-200
-                bg-white
-                shadow-sm
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-xl
-              "
-            >
+        {/* Top Gradient */}
+        <div className="h-1.5 w-full bg-gradient-to-r from-green-500 to-emerald-500" />
 
-              <div
-                className="
-                  h-1.5
-                  w-full
-                  bg-gradient-to-r
-                  from-orange-500
-                  to-amber-500
-                "
+        <div className="flex flex-1 flex-col p-5">
+
+          {/* Individual Image */}
+          <div className="flex justify-center">
+
+            <div className="w-36 h-36 md:w-40 md:h-40 rounded-full overflow-hidden bg-gray-100 border-4 border-white shadow-md ring-2 ring-green-100 transition-all duration-300 group-hover:ring-green-300">
+
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
               />
 
-              <div className="p-5">
+            </div>
 
-                {/* PHOTO SPACE - DISABLED FOR NOW */}
-                <div className="flex justify-center">
+          </div>
 
-                  <div
-                    className="
-                      w-36
-                      h-36
-                      md:w-40
-                      md:h-40
-                      rounded-full
-                      overflow-hidden
-                      bg-gray-100
-                      border-4
-                      border-white
-                      shadow-md
-                    "
-                  >
-                    {/* Photo intentionally disabled */}
-                  </div>
+          {/* Name and Details */}
+          <div className="mt-5 flex flex-1 flex-col text-center">
 
-                </div>
+            <h3 className="mt-3 text-lg font-bold text-gray-900 leading-snug transition-colors duration-300 group-hover:text-green-700">
+              {item.name}
+            </h3>
 
+            <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+              {item.detail}
+            </p>
 
-                <div className="mt-5 text-center">
-
-                  <h3
-                    className="
-                      mt-3
-                      text-lg
-                      font-bold
-                      text-gray-900
-                      leading-snug
-                    "
-                  >
-                    {item.name}
-                  </h3>
-
-                  <p
-                    className="
-                      mt-2
-                      text-sm
-                      text-gray-600
-                      leading-relaxed
-                    "
-                  >
-                    {item.detail}
-                  </p>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          ))}
+          </div>
 
         </div>
 
-      </section>
+        {/* Bottom Hover Accent */}
+        <div className="h-1 w-0 bg-gradient-to-r from-green-500 to-emerald-500 transition-all duration-300 group-hover:w-full" />
+
+      </article>
+
+    ))}
+
+  </div>
+
+</section>
+
+
+{/* =====================================================
+    CO-CONVENER
+===================================================== */}
+
+<section className="mt-12">
+
+  {/* Section Heading */}
+  <div className="flex items-center gap-3 mb-6">
+
+    <div className="w-11 h-11 rounded-xl bg-orange-50 flex items-center justify-center flex-shrink-0">
+      <span className="text-xl text-orange-600">✓</span>
+    </div>
+
+    <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+      Co-convener
+    </h2>
+
+  </div>
+
+  {/* Co-convener Cards */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 justify-items-center">
+
+    {[
+      {
+        name: "Mrs. Shilpa Pawale",
+        detail: "Indira University, Pune",
+        image: "/assets/images/ICETS/shilpa.jpg",
+      },
+      {
+        name: "Mrs. Monali Chaudhari",
+        detail: "Indira University, Pune",
+        image: "/assets/images/ICETS/monali.jpg",
+      },
+    ].map((item, index) => (
+
+      <article
+        key={index}
+        className="group relative flex h-full w-full max-w-[300px] flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-orange-200 hover:shadow-xl"
+      >
+
+        {/* Top Gradient */}
+        <div className="h-1.5 w-full bg-gradient-to-r from-orange-500 to-amber-500" />
+
+        <div className="flex flex-1 flex-col p-5">
+
+          {/* Individual Image */}
+          <div className="flex justify-center">
+
+            <div className="w-36 h-36 md:w-40 md:h-40 rounded-full overflow-hidden bg-gray-100 border-4 border-white shadow-md ring-2 ring-orange-100 transition-all duration-300 group-hover:ring-orange-300">
+
+              <img
+                src={item.image}
+                alt={item.name}
+                loading="lazy"
+                className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+              />
+
+            </div>
+
+          </div>
+
+          {/* Name and Details */}
+          <div className="mt-5 flex flex-1 flex-col text-center">
+
+            <h3 className="mt-3 text-lg font-bold text-gray-900 leading-snug transition-colors duration-300 group-hover:text-orange-700">
+              {item.name}
+            </h3>
+
+            <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+              {item.detail}
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* Bottom Hover Accent */}
+        <div className="h-1 w-0 bg-gradient-to-r from-orange-500 to-amber-500 transition-all duration-300 group-hover:w-full" />
+
+      </article>
+
+    ))}
+
+  </div>
+
+</section>
 
 
       {/* =====================================================
