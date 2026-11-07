@@ -849,4 +849,10 @@ export const publicationBookList = [
             images:'/assets/images/publication/cover_issue_65_en_US.jpg',
             link:'https://journaleet.in/index.php/jeet/issue/view/120'
         },
+        {
+            key:17,
+            title:'Asia Pacific Journal of Health Management (APJHM) ',
+            images:'/assets/images/publication/APJHM.jpg',
+            link:'https://journal.achsm.org.au/index.php/achsm'
+        },
     ]
