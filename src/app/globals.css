@@ -123,3 +123,27 @@ a {
   left: 0;
   /* slide in to cover from left to right */
 }
+
+
+.team-carousel .swiper-pagination-bullet {
+    width: 9px;
+    height: 9px;
+    background: #bdbdbd;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.team-carousel .swiper-pagination-bullet-active {
+    width: 25px;
+    border-radius: 10px;
+    background: #d61c25;
+}
+
+.team-carousel .swiper-button-disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.team-carousel .swiper {
+    overflow: hidden;
+}
