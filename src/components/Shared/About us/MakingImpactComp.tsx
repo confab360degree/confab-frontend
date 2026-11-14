@@ -32,17 +32,18 @@ const teamMembers = [
         image: '/assets/images/team/bhaswati.jpg',
     },
     {
-        name: 'Mr. K. Venkataraj',
-        role: 'Regional Director – South India',
-        info: 'Founder, MobilityNxt – EV Training & Skilling Organisation',
-        image: '/assets/images/team/KV.jpg',
-    },
-    {
         name: 'Dr. Sri (S) Sakuntala',
         role: 'Operations Manager – South India',
         info: 'Associate Professor, Malla Reddy University, Telangana',
         image: '/assets/images/team/SAK.jpg',
     },
+    {
+        name: 'Mr. K. Venkataraj',
+        role: 'Regional Director – South India',
+        info: 'Founder, MobilityNxt – EV Training & Skilling Organisation',
+        image: '/assets/images/team/KV.jpg',
+    },
+    
     {
         name: 'Er. Debabrata Roy (CEng)',
         role: 'Consultant-Digital',
