@@ -241,8 +241,16 @@ Dr. Paul’s leadership acumen is evident from his various administrative roles 
         key: 30,
         image: '/assets/images/advisoryBoard/bhaswati.jpg',
         name: 'Dr. Bhaswati Jana',
-        role: 'Research Director, Radiant Institute of Technology and Consulting',
+        role: 'Research Director, Radiant Institute of Technology and Consulting, India',
         info: 'Dr. Bhaswati Jana is an accomplished academician and researcher with over 30 years of professional experience, including 16 years in higher education and 14 years in the healthcare and industry sectors. She holds a PhD in Human Resource Analytics, an MBA in Human Resource Management, and an Executive Certification in AI and Digital Transformation from IIT Kanpur. She has held prominent academic leadership positions at Woxsen University, Chandigarh University, and ICFAI University Tripura, and has professional experience with Peerless Hospital and other healthcare institutions. Currently serving as Research Director at the Radiant Institute of Skill Development, she contributes to research and capacity-building initiatives across North East India in collaboration with the Ministry of Development of North Eastern Region (DONER) and IIM Shillong. Her research interests include HR Analytics, Artificial Intelligence, Digital Transformation, and Strategic Human Resource Management. She has authored three books, published research in Scopus- and Web of Science-indexed journals, and contributed chapters to publications by Springer, Emerald, and Taylor & Francis. She also holds a patent for an HRM training and development tool. Her academic contributions include presentations at international conferences and Best Research Paper Awards in Chicago and Malaysia. Her notable achievements include a Certificate of Honour from the Ministry of Culture, Government of India, and a Gold Medal from IIT Kharagpur.',
         LinkedInLink: 'https://www.linkedin.com/in/bhaswati-chakraborti-ba068b137/'
+    },
+    {
+        key: 31,
+        image: '/assets/images/advisoryBoard/allen.jpg',
+        name: 'Mr. Allen Semboze',
+        role: 'Chief Executive Officer at Opportunity Bank Uganda Limited (OBUL), Uganda',
+        info: 'Allen Semboze is currently the Chief Executive Officer at Opportunity Bank Uganda Limited (OBUL), a Tier II financial institution that is regulated by the Central Bank of Uganda. OBUL is part of Opportunity International, one of the world’s largest international microfinance/impact finance institutions. Opportunity International provides small business loans, savings, insurance and training to more than 14 million people in the developing world. It has clients in more than 20 countries and works with fundraising partners in the United States, Australia, Canada, Germany, Switzerland, Singapore, Hong Kong and the United Kingdom.  Allen has more than 20 years banking and financial services experience across 7 African countries in blue chip companies like Standard Chartered Bank, Barclays Bank, Standard Bank/Stanbic Bank, Unimoni, Airtel Africa and now Opportunity International.',
+        LinkedInLink: 'https://www.linkedin.com/in/allen-semboze-78b19328/'
     },
 ];
