@@ -26,6 +26,12 @@ const teamMembers = [
         image: '/assets/images/team/marcus.jpg',
     },
     {
+        name: 'Dr. Bhaswati Jana',
+        role: 'Regional Director, North West Region, India',
+        info: 'Research Director, Radiant Institute of Technology and Consulting',
+        image: '/assets/images/team/bhaswati.jpg',
+    },
+    {
         name: 'Mr. K. Venkataraj',
         role: 'Regional Director – South India',
         info: 'Founder, MobilityNxt – EV Training & Skilling Organisation',
@@ -36,12 +42,6 @@ const teamMembers = [
         role: 'Operations Manager – South India',
         info: 'Associate Professor, Malla Reddy University, Telangana',
         image: '/assets/images/team/SAK.jpg',
-    },
-    {
-        name: 'Dr. Bhaswati Jana',
-        role: 'Consultant-Research & Development',
-        info: 'Research Director, Radiant Institute of Technology and Consulting',
-        image: '/assets/images/team/bhaswati.jpg',
     },
     {
         name: 'Er. Debabrata Roy (CEng)',
