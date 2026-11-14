@@ -1,11 +1,14 @@
+
 import type { Metadata } from "next";
 import { DM_Sans, Geist, Geist_Mono, Outfit } from "next/font/google";
 import "./globals.css";
+
+
 import { Header } from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import FloatingButtonComp from "@/components/Shared/FloatingButtonComp";
 import { Toaster } from "react-hot-toast";
-import DisclaimerPopup from "@/components/DisclaimerPopup/DisclaimerPopup"; // ✅ ADDED
+import DisclaimerPopup from "@/components/DisclaimerPopup/DisclaimerPopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,19 +22,19 @@ const geistMono = Geist_Mono({
 
 const dmSans = DM_Sans({
   variable: "--font-dmSans",
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal', 'italic'],
-  display: 'swap',
-})
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
 
 const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal'],
-  display: 'swap',
-  variable: '--font-outfit',
-})
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal"],
+  display: "swap",
+  variable: "--font-outfit",
+});
 
 export const metadata: Metadata = {
   title: "Confab 360 Degree – Meaningful Research & Impactful Training – Conferences",
@@ -57,10 +60,7 @@ export default function RootLayout({
         <FloatingButtonComp />
         <Footer />
 
-        <Toaster
-          position="top-center"
-          reverseOrder={false}
-        />
+        <Toaster position="top-center" reverseOrder={false} />
       </body>
     </html>
   );
