@@ -38,7 +38,13 @@ const teamMembers = [
         image: '/assets/images/team/SAK.jpg',
     },
     {
-        name: 'Debabrata Roy',
+        name: 'Dr. Bhaswati Jana',
+        role: 'Consultant-Research & Development',
+        info: 'Research Director, Radiant Institute of Technology and Consulting',
+        image: '/assets/images/team/bhaswati.jpg',
+    },
+    {
+        name: 'Er. Debabrata Roy (CEng)',
         role: 'Consultant-Digital',
         info: '',
         image: '/assets/images/team/dr.jpg',
